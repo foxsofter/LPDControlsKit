@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LPDControlsKit_Example' do
+  pod 'LPDControlsKit', :path => '../'
+
+  target 'LPDControlsKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
