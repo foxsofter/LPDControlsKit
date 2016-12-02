@@ -1,0 +1,6 @@
+framework module Pods_LPDControlsKit_Tests {
+  umbrella header "Pods-LPDControlsKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
