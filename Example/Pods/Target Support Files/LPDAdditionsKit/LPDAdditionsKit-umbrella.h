@@ -2,7 +2,7 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "LPDAdditions.h"
+#import "LPDAdditionsKit.h"
 #import "LPDLabel.h"
 #import "LPDLocalNotificationCenter.h"
 #import "NSArray+LPDRandom.h"

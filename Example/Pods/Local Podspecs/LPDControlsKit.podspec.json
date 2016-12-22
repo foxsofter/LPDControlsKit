@@ -19,7 +19,6 @@
     "ios": "8.0"
   },
   "source_files": "LPDControlsKit/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": "UIKit",
   "dependencies": {
     "Masonry": [
