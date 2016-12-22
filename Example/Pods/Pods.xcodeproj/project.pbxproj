@@ -461,11 +461,11 @@
 		3D0A0BEAF04D66110C7CEA253E90F1D0 /* KWBeZeroMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeZeroMatcher.m; path = Classes/Matchers/KWBeZeroMatcher.m; sourceTree = "<group>"; };
 		3D3F7437AD19FDEF74375313A4F1B199 /* KWWorkarounds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWWorkarounds.h; path = Classes/Core/KWWorkarounds.h; sourceTree = "<group>"; };
 		3DB979FCCE55A9F2358C6495A4FC96E9 /* NSNumber+LPDMoneyAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+LPDMoneyAddition.h"; path = "LPDAdditionsKit/Classes/NSNumber+LPDMoneyAddition.h"; sourceTree = "<group>"; };
-		3DD9C91DAF39E8E0BB51201943A54EB0 /* LPDAdditionsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LPDAdditionsKit.modulemap; sourceTree = "<group>"; };
+		3DD9C91DAF39E8E0BB51201943A54EB0 /* LPDAdditionsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LPDAdditionsKit.modulemap; sourceTree = "<group>"; };
 		409328C0154979098B517523645075A7 /* Pods-LPDControlsKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDControlsKit_Example-resources.sh"; sourceTree = "<group>"; };
 		409579BF980E714D3AF4910E7F902305 /* KWProbePoller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbePoller.h; path = Classes/Core/KWProbePoller.h; sourceTree = "<group>"; };
 		4118351ED8B90167D888C6FA7A097353 /* UIColor+LPDAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+LPDAddition.h"; path = "LPDAdditionsKit/Classes/UIColor+LPDAddition.h"; sourceTree = "<group>"; };
-		421223B3FADB062D98F5891718FBE538 /* LPDAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPDAdditionsKit.framework; path = LPDAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421223B3FADB062D98F5891718FBE538 /* LPDAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPDAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A31DA47A6F4EDBBC30BB8EC268882F /* KWSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSpec.m; path = Classes/Core/KWSpec.m; sourceTree = "<group>"; };
 		444A02CFB26A985B8D172FE531E8063E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		44AD7B5FE293A0E33DC1618DF1321BE8 /* KWItNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWItNode.h; path = Classes/Nodes/KWItNode.h; sourceTree = "<group>"; };
@@ -502,7 +502,7 @@
 		5A2503B615956C4E0AA204C31349D2DB /* KWStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStub.m; path = Classes/Stubbing/KWStub.m; sourceTree = "<group>"; };
 		5B044F41A600C480C42F2ED813123ABB /* KWStringPrefixMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringPrefixMatcher.h; path = Classes/Matchers/KWStringPrefixMatcher.h; sourceTree = "<group>"; };
 		5B576CEB496850854CA5E68C72BD6606 /* UINavigationItem+LPDAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationItem+LPDAddition.m"; path = "LPDAdditionsKit/Classes/UINavigationItem+LPDAddition.m"; sourceTree = "<group>"; };
-		5CAEBA95DB724B769CE1FD087D077B73 /* SDVersion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDVersion.modulemap; sourceTree = "<group>"; };
+		5CAEBA95DB724B769CE1FD087D077B73 /* SDVersion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDVersion.modulemap; sourceTree = "<group>"; };
 		5CDD6E64D7B40F9B270BAD60D8FFC9DF /* KWReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReporting.h; path = Classes/Core/KWReporting.h; sourceTree = "<group>"; };
 		5D04F48951B6E7828185436A28B55556 /* KWValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWValue.h; path = Classes/Core/KWValue.h; sourceTree = "<group>"; };
 		5D1A470BAC0C300E225D68EBA5C40CFD /* UIView+LPDFindSubView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LPDFindSubView.m"; path = "LPDAdditionsKit/Classes/UIView+LPDFindSubView.m"; sourceTree = "<group>"; };
@@ -579,9 +579,9 @@
 		8E2904B7A37BE9BE91D1E5717C6836B2 /* KWNilMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNilMatcher.h; path = Classes/Matchers/KWNilMatcher.h; sourceTree = "<group>"; };
 		8F2841E5502326AF8820B7857EC22575 /* KWBeBetweenMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeBetweenMatcher.m; path = Classes/Matchers/KWBeBetweenMatcher.m; sourceTree = "<group>"; };
 		908E6C2A321F5F17294A4A6B1F08EE6D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970F6B20A22C056871FC36A2BA13DF1F /* NSDate+LPDNSDateRFC1123.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LPDNSDateRFC1123.m"; path = "LPDAdditionsKit/Classes/NSDate+LPDNSDateRFC1123.m"; sourceTree = "<group>"; };
-		97864ED910D9912C464C0D76EFF34FE3 /* Pods_LPDControlsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDControlsKit_Example.framework; path = "Pods-LPDControlsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97864ED910D9912C464C0D76EFF34FE3 /* Pods_LPDControlsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPDControlsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ADD761A1F90D17568508BDF873F894 /* KWGenericMatchingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchingAdditions.h; path = Classes/Matchers/KWGenericMatchingAdditions.h; sourceTree = "<group>"; };
 		983E91693C0978D776C06C5610A74945 /* UIImage+LPDAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+LPDAddition.h"; path = "LPDAdditionsKit/Classes/UIImage+LPDAddition.h"; sourceTree = "<group>"; };
 		986EFF94599143465E212BCCF2F1FB88 /* UIScreen+LPDAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+LPDAccessor.m"; path = "LPDAdditionsKit/Classes/UIScreen+LPDAccessor.m"; sourceTree = "<group>"; };
@@ -596,7 +596,7 @@
 		9DD45ED91F37FA0542F9025A58253004 /* KWAsyncVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAsyncVerifier.m; path = Classes/Verifiers/KWAsyncVerifier.m; sourceTree = "<group>"; };
 		9EDD7CBECD573AC6D6E257D5FAA8EB8D /* Kiwi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kiwi.h; path = Classes/Core/Kiwi.h; sourceTree = "<group>"; };
 		9F4BC7F1A61FA75B562F387E73BF1081 /* UIView+LPDAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LPDAccessor.m"; path = "LPDAdditionsKit/Classes/UIView+LPDAccessor.m"; sourceTree = "<group>"; };
-		9F88A32F607A737F727B3501C1274A45 /* Pods_LPDControlsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDControlsKit_Tests.framework; path = "Pods-LPDControlsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F88A32F607A737F727B3501C1274A45 /* Pods_LPDControlsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPDControlsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB80E7CE7EE20B999E54D9649D6343E /* KWMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchers.h; path = Classes/Core/KWMatchers.h; sourceTree = "<group>"; };
 		A00B20B34FA92A68E2C55A392B1F196E /* NSString+LPDAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LPDAddition.m"; path = "LPDAdditionsKit/Classes/NSString+LPDAddition.m"; sourceTree = "<group>"; };
 		A035EF5B111E9C533410093C4786B3A2 /* LPDAdditionsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LPDAdditionsKit-prefix.pch"; sourceTree = "<group>"; };
@@ -606,11 +606,11 @@
 		A3AE7F0AA9F8BD19B1224B20C73D689B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		A52207E3A33DEE8F758512CEE39E08D5 /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
 		A5DC1DEA8308722A5D087989EDED69D0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		A6A2C12A940F80E4C3E61EB142FCC4DF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A2C12A940F80E4C3E61EB142FCC4DF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75473AEFAF6AFF90EE280B2BBD13094 /* KWContextNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContextNode.m; path = Classes/Nodes/KWContextNode.m; sourceTree = "<group>"; };
 		A7D069B0368DB13291940AAF036602EA /* SDiOSVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDiOSVersion.h; path = SDVersion/SDiOSVersion/SDiOSVersion.h; sourceTree = "<group>"; };
 		A8BE8BFD6163EDC3839BB9E716D2FA57 /* NSObject+KiwiSpyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiSpyAdditions.h"; path = "Classes/Core/NSObject+KiwiSpyAdditions.h"; sourceTree = "<group>"; };
-		A919B74232683067D926CB332B85E924 /* Kiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kiwi.framework; path = Kiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A919B74232683067D926CB332B85E924 /* Kiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2C599316538765E31275B0A2A9D2F1 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+KiwiAdditions.h"; path = "Classes/Core/NSValue+KiwiAdditions.h"; sourceTree = "<group>"; };
 		AB8998B8C94100B88351D431596BB552 /* KWBeZeroMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeZeroMatcher.h; path = Classes/Matchers/KWBeZeroMatcher.h; sourceTree = "<group>"; };
 		ABFC76D6CE39A59833B9E9BCD9613DF2 /* NSObject+LPDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LPDAssociatedObject.m"; path = "LPDAdditionsKit/Classes/NSObject+LPDAssociatedObject.m"; sourceTree = "<group>"; };
@@ -620,7 +620,7 @@
 		AD9932082D717B3F9EA3F6AB5A0FE527 /* KWBeKindOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeKindOfClassMatcher.m; path = Classes/Matchers/KWBeKindOfClassMatcher.m; sourceTree = "<group>"; };
 		ADAD9F8F8F88C4B26A38F066EDE9A2EB /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.h"; sourceTree = "<group>"; };
 		AE1CF55FF3FAB7E298B79507D7D43C06 /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Classes/Core/KWMessagePattern.m; sourceTree = "<group>"; };
-		B01B8E4A138C11F48AFBA0233EAE2F94 /* LPDControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LPDControlsKit.modulemap; sourceTree = "<group>"; };
+		B01B8E4A138C11F48AFBA0233EAE2F94 /* LPDControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LPDControlsKit.modulemap; sourceTree = "<group>"; };
 		B049B682608D526BBD3CD7E64CF2A6DA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B0A4A0B9D1F54505179302BD13A507CE /* KWStringContainsMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringContainsMatcher.m; path = Classes/Matchers/KWStringContainsMatcher.m; sourceTree = "<group>"; };
 		B1CFE926BD96B149983CB4B5BA0D18CE /* KWBackgroundTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBackgroundTask.h; path = Classes/Core/KWBackgroundTask.h; sourceTree = "<group>"; };
@@ -628,12 +628,12 @@
 		B271FE0DD0F619FB068E771D7CA9D6FF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		B278794A7577147551649B30668B7E60 /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Classes/Core/KWFormatter.m; sourceTree = "<group>"; };
 		B32C5E33DE17CF86E1F8EC83ED65077F /* KiwiBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiBlockMacros.h; path = Classes/Core/KiwiBlockMacros.h; sourceTree = "<group>"; };
-		B477979544CA7E2BC97EDF4A3445A2CF /* Kiwi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kiwi.modulemap; sourceTree = "<group>"; };
+		B477979544CA7E2BC97EDF4A3445A2CF /* Kiwi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kiwi.modulemap; sourceTree = "<group>"; };
 		B7ACB6C92D7B49CADD9892F2B79F81F6 /* KWNilMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNilMatcher.m; path = Classes/Matchers/KWNilMatcher.m; sourceTree = "<group>"; };
 		B7C4C7DC079DC273D32DB729133AC676 /* KWBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlock.h; path = Classes/Core/KWBlock.h; sourceTree = "<group>"; };
 		B8126278F5CE7EAEA60FFBDCD1525ACF /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		B858BD954254A068D342E2095D4E0544 /* RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSA.h; path = LPDAdditionsKit/Classes/RSA.h; sourceTree = "<group>"; };
-		B85B369A1AEF9B1BB80D74589E564332 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDVersion.framework; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85B369A1AEF9B1BB80D74589E564332 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8653FB580171D3587D2EE484A7272F8 /* LPDPlusCrossBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDPlusCrossBarButtonItem.h; sourceTree = "<group>"; };
 		B89FEC704F48C1D59AFD2F01D504EC1C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		B93E39A51393D1E1A60C5F291AE20E40 /* SDVersion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDVersion-dummy.m"; sourceTree = "<group>"; };
@@ -687,7 +687,7 @@
 		DF44FDB4F96E1E6E4B5BC72C7666EBB6 /* KWUserDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWUserDefinedMatcher.h; path = Classes/Matchers/KWUserDefinedMatcher.h; sourceTree = "<group>"; };
 		DFC3A8AD360FE512C581175D0A9ECADA /* KWBeIdenticalToMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeIdenticalToMatcher.m; path = Classes/Matchers/KWBeIdenticalToMatcher.m; sourceTree = "<group>"; };
 		DFCAF4A0DD68C7706E0A8686E1837613 /* LPDPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDPopupView.m; sourceTree = "<group>"; };
-		E1086BDD99957855D1DF0EE790572897 /* Pods-LPDControlsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LPDControlsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E1086BDD99957855D1DF0EE790572897 /* Pods-LPDControlsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LPDControlsKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E27D989FA0FE4EECBA20DEA2E307D921 /* KWNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNull.m; path = Classes/Core/KWNull.m; sourceTree = "<group>"; };
 		E2A7FC795D66E801A46275DFB9F4271B /* Pods-LPDControlsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDControlsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E35C973E6E7AC185C4F2C64EA6CE62E4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
@@ -701,13 +701,13 @@
 		E9A632D4D4887294675EF9172CF7ED24 /* LPDLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPDLabel.h; path = LPDAdditionsKit/Classes/LPDLabel.h; sourceTree = "<group>"; };
 		E9C4DCC159010062B4C5028888B745F1 /* LPDAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPDAdditions.h; path = LPDAdditionsKit/Classes/LPDAdditions.h; sourceTree = "<group>"; };
 		EB4F6A9F20E92AEB3EF77007B7F2EF25 /* KWStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStub.h; path = Classes/Stubbing/KWStub.h; sourceTree = "<group>"; };
-		EB5942CF2A81440A75CDD8EAB1E2CA6E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		EB5942CF2A81440A75CDD8EAB1E2CA6E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		EDC0A0C9111DCB0D6F47888F156A293C /* KWRegisterMatchersNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegisterMatchersNode.m; path = Classes/Nodes/KWRegisterMatchersNode.m; sourceTree = "<group>"; };
 		EE07925343C1A6588EBBA9FBFE46A088 /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Classes/Matchers/KWRespondToSelectorMatcher.m; sourceTree = "<group>"; };
 		EE88D22F9F01B4BCA62E4E87D4B16987 /* KWEqualMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWEqualMatcher.h; path = Classes/Matchers/KWEqualMatcher.h; sourceTree = "<group>"; };
 		EED0CC6ED7E35DF33F41B6B7F15D294D /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Classes/Core/KWCaptureSpy.h; sourceTree = "<group>"; };
 		EEE9521CED9A99E34C0FBEBFFFFBC6C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EF9890AC9FE1B3348AEC8FEDE7BBFEEB /* LPDControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPDControlsKit.framework; path = LPDControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9890AC9FE1B3348AEC8FEDE7BBFEEB /* LPDControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPDControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCB6C699F4475F3D5B71D61541EFB59 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Classes/Matchers/KWBlockRaiseMatcher.h; sourceTree = "<group>"; };
 		F1648814BF2E1E060BF65DC4B93BE913 /* KWLetNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWLetNode.m; path = Classes/Nodes/KWLetNode.m; sourceTree = "<group>"; };
 		F2835C5FF93D20ADE13173D46A258984 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -729,7 +729,7 @@
 		FDDE8CC9E8ED600705CF2310EAF5796E /* UIView+LPDBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LPDBadge.m"; path = "LPDAdditionsKit/Classes/UIView+LPDBadge.m"; sourceTree = "<group>"; };
 		FE28EDE77266C6EABBD86C2B3FB28397 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE944CEAD57F3C56FB69568D76DBB10D /* KWChangeMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWChangeMatcher.m; path = Classes/Matchers/KWChangeMatcher.m; sourceTree = "<group>"; };
-		FFFA92077E9F6E74014014D3020A16E0 /* Pods-LPDControlsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LPDControlsKit_Example.modulemap"; sourceTree = "<group>"; };
+		FFFA92077E9F6E74014014D3020A16E0 /* Pods-LPDControlsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LPDControlsKit_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -803,7 +803,6 @@
 			children = (
 				31D0BD47F3B7FFC439B102D64BA1470F /* Classes */,
 			);
-			name = LPDControlsKit;
 			path = LPDControlsKit;
 			sourceTree = "<group>";
 		};
@@ -838,7 +837,6 @@
 				7342AE27DEC06B71B5FCE7BD041E812D /* LPDAlertView.h */,
 				8427628B90F42B83A727BBCA8CEFA93F /* LPDAlertView.m */,
 			);
-			name = LPDAlertView;
 			path = LPDAlertView;
 			sourceTree = "<group>";
 		};
@@ -850,7 +848,6 @@
 				197A256C808A0C420155CC507D0F4870 /* SDVersion.h */,
 				8ED5125686147EEA810D79DF39BB701E /* Support Files */,
 			);
-			name = SDVersion;
 			path = SDVersion;
 			sourceTree = "<group>";
 		};
@@ -860,7 +857,6 @@
 				34B9625117A48774B76E5E0B31A3C177 /* LPDRating.h */,
 				19726AA9A2D40247DD941A722E3B385D /* LPDRating.m */,
 			);
-			name = LPDRating;
 			path = LPDRating;
 			sourceTree = "<group>";
 		};
@@ -899,7 +895,6 @@
 				F69126F067D6AC1BAACEB9518A068F50 /* LPDSegmented */,
 				6400E3C029A423BB878A0C39D3089800 /* LPDToastView */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -933,7 +928,6 @@
 				B271FE0DD0F619FB068E771D7CA9D6FF /* ViewController+MASAdditions.m */,
 				2A37DDF1A8FFB415B09750BDCA83939C /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -943,7 +937,6 @@
 				B8653FB580171D3587D2EE484A7272F8 /* LPDPlusCrossBarButtonItem.h */,
 				7552BBCB4C6C7EDDBEF6827C2AAF7406 /* LPDPlusCrossBarButtonItem.m */,
 			);
-			name = LPDPlusCrossBarButtonItem;
 			path = LPDPlusCrossBarButtonItem;
 			sourceTree = "<group>";
 		};
@@ -1007,7 +1000,6 @@
 				5D1A470BAC0C300E225D68EBA5C40CFD /* UIView+LPDFindSubView.m */,
 				F652086FDC03C8C313B1E35E2CE2864F /* Support Files */,
 			);
-			name = LPDAdditionsKit;
 			path = LPDAdditionsKit;
 			sourceTree = "<group>";
 		};
@@ -1017,7 +1009,6 @@
 				2967DA4C65DFD31385941826ED7B8A31 /* LPDToastView.h */,
 				D998A110AA85FB6B3A62B337B1062C33 /* LPDToastView.m */,
 			);
-			name = LPDToastView;
 			path = LPDToastView;
 			sourceTree = "<group>";
 		};
@@ -1027,7 +1018,6 @@
 				69AFAEC1E2E47FEA8BF36A3713B8467E /* KxMenu.h */,
 				F50A9C1709568B4A1DFF02047BD5150C /* KxMenu.m */,
 			);
-			name = KxMenu;
 			path = KxMenu;
 			sourceTree = "<group>";
 		};
@@ -1041,7 +1031,6 @@
 				53255449A43F6C178B1EB8F012E4F10F /* LPDPopupView.h */,
 				DFCAF4A0DD68C7706E0A8686E1837613 /* LPDPopupView.m */,
 			);
-			name = LPDPopupView;
 			path = LPDPopupView;
 			sourceTree = "<group>";
 		};
@@ -1165,7 +1154,6 @@
 				7E93CB9968713C8553CBCA9981EAC4D8 /* LPDSegmented.h */,
 				00BA3D6AC32CFE53891EE3348F39FB45 /* LPDSegmented.m */,
 			);
-			name = LPDSegmented;
 			path = LPDSegmented;
 			sourceTree = "<group>";
 		};
@@ -1358,7 +1346,6 @@
 				58A3DAB8B79AA2E374DE25E616F9FDE4 /* NSValue+KiwiAdditions.m */,
 				03AFEB9C499A3EE8556100D2F61B14E5 /* Support Files */,
 			);
-			name = Kiwi;
 			path = Kiwi;
 			sourceTree = "<group>";
 		};
@@ -1739,7 +1726,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2277,14 +2264,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -2317,15 +2308,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
