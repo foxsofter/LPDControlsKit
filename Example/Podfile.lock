@@ -1,7 +1,7 @@
 PODS:
   - Kiwi (2.4.0)
   - LPDAdditionsKit (0.1.1)
-  - LPDControlsKit (0.1.0):
+  - LPDControlsKit (0.1.1):
     - LPDAdditionsKit
     - Masonry
     - SDVersion
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
   LPDAdditionsKit: e029eefb9ec795bd4205a7f81e7678f654e9728f
-  LPDControlsKit: 80b5c98834f3290243555436ccd53110f86ab172
+  LPDControlsKit: cfc17c0cb196c1d5976788ce62e5da76ec1839a6
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SDVersion: 43383b6ac05462c973c3fd92d9748c74e360aba5
 
