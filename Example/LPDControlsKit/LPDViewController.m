@@ -8,6 +8,7 @@
 
 #import "LPDViewController.h"
 #import "LPDAlertView.h"
+#import "LPDAlertController.h"
 
 @interface LPDViewController ()
 
@@ -17,14 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 
     UIButton *testButton = [UIButton buttonWithType: UIButtonTypeSystem];
-    [testButton setTitle: @"Click Me" forState: UIControlStateNormal];
+    [testButton setTitle: @"LPDAlertController" forState: UIControlStateNormal];
     [testButton addTarget: self action: @selector(testClicked:) forControlEvents: UIControlEventTouchUpInside];
     [testButton sizeToFit];
     testButton.center = self.view.center;
     [self.view addSubview: testButton];
+
+    UIButton *testButton2 = [UIButton buttonWithType: UIButtonTypeSystem];
+    [testButton2 setTitle: @"UIAlertController" forState: UIControlStateNormal];
+    [testButton2 addTarget: self action: @selector(testClicked2:) forControlEvents: UIControlEventTouchUpInside];
+    [testButton2 sizeToFit];
+    testButton2.center = CGPointMake(self.view.center.x, self.view.center.y + 36);
+    [self.view addSubview: testButton2];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,9 +41,24 @@
 }
 
 - (void)testClicked:(UIButton *)button {
-    [LPDAlertView show:@"Test" title:@"TestTitle" action:^{
-        NSLog(@"Test Clicked");
-    }];
+    /*[LPDAlertView show:@"Test" title:@"TestTitle" action:^{
+     NSLog(@"Test Clicked");
+     }];*/
+    [LPDAlertController show:self
+                       title:@"标题"
+     //message:@"这个是单行"
+                     message:@"这个是LPDAlertController的默认样式啦啦啦这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式"
+                      action:@[[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil],
+                               [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:nil]]];
+}
+
+- (void)testClicked2:(UIButton *)button {
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"标题"
+                                                                             message:@"这个是LPDAlertController的默认样式啦啦啦这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式"
+                                                                      preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:nil]];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 @end
