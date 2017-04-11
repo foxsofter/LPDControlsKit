@@ -23,7 +23,6 @@
 		0E13B04C70C4C2895C4DD9C7ACE957F3 /* KWFutureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2141AC641BC0BDD95F1BAD93105BBD15 /* KWFutureObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0E1A823F4371731302C91AE343613FAE /* LPDPopupActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E942910B30A73DE778ACB5F9319772B6 /* LPDPopupActionSheet.m */; };
 		0EE5886D46A5796AB0D2FBD443D0A9C5 /* LPDAdditionsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CD8FED5AE252E16615AE9F4E7262F9 /* LPDAdditionsKit.framework */; };
-		0FFD572C3E2E4274E4E3C09593797B29 /* LPDAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D890E89E56ABCFBE91F1C441F40457A8 /* LPDAlertController.m */; };
 		10BFAF99C6082BB14A7A4B8D81DA01CD /* KWContextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0706DDF3C0A9682D9E60B263C8CC65F3 /* KWContextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12B832DE307BD43617EC84DC5E777BCD /* KWWorkarounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3F7437AD19FDEF74375313A4F1B199 /* KWWorkarounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12BCACDAB0EE336B6910D4D21D58AE5A /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5442B6497DAC59F9C29EBD41A780A87 /* Masonry.framework */; };
@@ -289,7 +288,6 @@
 		EABB128DD41F7C50B1A131710E007281 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D7E89BE029D360D0DD0AD9E2D74ED5 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB7645869AC01EFCF97890D638882359 /* KWRespondToSelectorMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C3D1CE9B38F1822B834E1839931287A /* KWRespondToSelectorMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBC07284CCF4DE10B8D23C89B102C282 /* KWSuiteConfigurationBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8407E539671DC23DD9B662D5F75D8 /* KWSuiteConfigurationBase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EBF6D07135BADD36D3F73242926F11B8 /* LPDAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FCEB900894AAE95C6C21867537AF2A /* LPDAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ECDDC4B91E59D98DDB8C9EB9FC010BE0 /* UIView+LPDFindSubView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20AC1C7831DFACFE7B34D6BB722F00D9 /* UIView+LPDFindSubView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE6DEE4C4FC982493324C6FF174288C0 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AE7F0AA9F8BD19B1224B20C73D689B /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF00E91C93E9D6C93F7BF7B43951EB50 /* KWChangeMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B6D25A8E4F8BB0C39E2296C644B713 /* KWChangeMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -467,7 +465,7 @@
 		3F33231FFE83DFEE11900F1737019A57 /* LPDPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDPopupView.m; sourceTree = "<group>"; };
 		409328C0154979098B517523645075A7 /* Pods-LPDControlsKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LPDControlsKit_Example-resources.sh"; sourceTree = "<group>"; };
 		409579BF980E714D3AF4910E7F902305 /* KWProbePoller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbePoller.h; path = Classes/Core/KWProbePoller.h; sourceTree = "<group>"; };
-		421223B3FADB062D98F5891718FBE538 /* LPDAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPDAdditionsKit.framework; path = LPDAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421223B3FADB062D98F5891718FBE538 /* LPDAdditionsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPDAdditionsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A31DA47A6F4EDBBC30BB8EC268882F /* KWSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSpec.m; path = Classes/Core/KWSpec.m; sourceTree = "<group>"; };
 		4402ECFE3ECEC3D09B0B537B76EFC3F7 /* LPDAdditionsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LPDAdditionsKit-umbrella.h"; sourceTree = "<group>"; };
 		444A02CFB26A985B8D172FE531E8063E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
@@ -483,7 +481,7 @@
 		4963060E83BE3F594FD58CD0593AB559 /* KWExample.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWExample.m; path = Classes/Core/KWExample.m; sourceTree = "<group>"; };
 		4966BC4D81D387A26D6C9A2AAC779331 /* NSProxy+KiwiVerifierAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSProxy+KiwiVerifierAdditions.m"; path = "Classes/Core/NSProxy+KiwiVerifierAdditions.m"; sourceTree = "<group>"; };
 		4A32A5F572180C6E858F9DD2A93A6F69 /* KWExampleSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleSuite.h; path = Classes/Core/KWExampleSuite.h; sourceTree = "<group>"; };
-		4ACBC1D9B6E2E3195FA12A75A0F04085 /* LPDAdditionsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LPDAdditionsKit.modulemap; sourceTree = "<group>"; };
+		4ACBC1D9B6E2E3195FA12A75A0F04085 /* LPDAdditionsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LPDAdditionsKit.modulemap; sourceTree = "<group>"; };
 		4AE8407E539671DC23DD9B662D5F75D8 /* KWSuiteConfigurationBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWSuiteConfigurationBase.m; path = Classes/Config/KWSuiteConfigurationBase.m; sourceTree = "<group>"; };
 		4CF6D1A0B1B0B16EC54EE6C5B4106A69 /* KWProbe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWProbe.h; path = Classes/Core/KWProbe.h; sourceTree = "<group>"; };
 		4E887E143BDA227CDA90948A09F6D926 /* KWContainMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWContainMatcher.h; path = Classes/Matchers/KWContainMatcher.h; sourceTree = "<group>"; };
@@ -501,7 +499,7 @@
 		5A2503B615956C4E0AA204C31349D2DB /* KWStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStub.m; path = Classes/Stubbing/KWStub.m; sourceTree = "<group>"; };
 		5B044F41A600C480C42F2ED813123ABB /* KWStringPrefixMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStringPrefixMatcher.h; path = Classes/Matchers/KWStringPrefixMatcher.h; sourceTree = "<group>"; };
 		5BEEF3B61D8A7C2C1F0714F990D094DF /* LPDLocalNotificationCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPDLocalNotificationCenter.h; path = LPDAdditionsKit/Classes/LPDLocalNotificationCenter.h; sourceTree = "<group>"; };
-		5CAEBA95DB724B769CE1FD087D077B73 /* SDVersion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDVersion.modulemap; sourceTree = "<group>"; };
+		5CAEBA95DB724B769CE1FD087D077B73 /* SDVersion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDVersion.modulemap; sourceTree = "<group>"; };
 		5CDD6E64D7B40F9B270BAD60D8FFC9DF /* KWReporting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWReporting.h; path = Classes/Core/KWReporting.h; sourceTree = "<group>"; };
 		5D04F48951B6E7828185436A28B55556 /* KWValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWValue.h; path = Classes/Core/KWValue.h; sourceTree = "<group>"; };
 		5D3D3D82B815DFE9BE6EAE30FFC7914D /* LPDAdditionsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LPDAdditionsKit-dummy.m"; sourceTree = "<group>"; };
@@ -565,9 +563,9 @@
 		8E2904B7A37BE9BE91D1E5717C6836B2 /* KWNilMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWNilMatcher.h; path = Classes/Matchers/KWNilMatcher.h; sourceTree = "<group>"; };
 		8F2841E5502326AF8820B7857EC22575 /* KWBeBetweenMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeBetweenMatcher.m; path = Classes/Matchers/KWBeBetweenMatcher.m; sourceTree = "<group>"; };
 		908E6C2A321F5F17294A4A6B1F08EE6D /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93CEE9AC6CD15F529A86A1F441D753DD /* UIScreen+LPDAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+LPDAccessor.m"; path = "LPDAdditionsKit/Classes/UIScreen+LPDAccessor.m"; sourceTree = "<group>"; };
-		97864ED910D9912C464C0D76EFF34FE3 /* Pods_LPDControlsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDControlsKit_Example.framework; path = "Pods-LPDControlsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97864ED910D9912C464C0D76EFF34FE3 /* Pods_LPDControlsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPDControlsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97ADD761A1F90D17568508BDF873F894 /* KWGenericMatchingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchingAdditions.h; path = Classes/Matchers/KWGenericMatchingAdditions.h; sourceTree = "<group>"; };
 		99B1916F4778B787F3EB3F3EBD0917D2 /* NSArray+LPDRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LPDRandom.m"; path = "LPDAdditionsKit/Classes/NSArray+LPDRandom.m"; sourceTree = "<group>"; };
 		9AA547740E41581F7205CEC4358483A7 /* KWHaveValueMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWHaveValueMatcher.m; path = Classes/Matchers/KWHaveValueMatcher.m; sourceTree = "<group>"; };
@@ -581,7 +579,7 @@
 		9D2BE05A5F266E93100E193DAE3C4F1A /* KWLetNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWLetNode.h; path = Classes/Nodes/KWLetNode.h; sourceTree = "<group>"; };
 		9DD45ED91F37FA0542F9025A58253004 /* KWAsyncVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWAsyncVerifier.m; path = Classes/Verifiers/KWAsyncVerifier.m; sourceTree = "<group>"; };
 		9EDD7CBECD573AC6D6E257D5FAA8EB8D /* Kiwi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kiwi.h; path = Classes/Core/Kiwi.h; sourceTree = "<group>"; };
-		9F88A32F607A737F727B3501C1274A45 /* Pods_LPDControlsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LPDControlsKit_Tests.framework; path = "Pods-LPDControlsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F88A32F607A737F727B3501C1274A45 /* Pods_LPDControlsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LPDControlsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB80E7CE7EE20B999E54D9649D6343E /* KWMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWMatchers.h; path = Classes/Core/KWMatchers.h; sourceTree = "<group>"; };
 		A0A3CA0D4369A3BFF0BDAC4254DE4229 /* LPDRating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDRating.m; sourceTree = "<group>"; };
 		A2BA561C23239C445AF123E785BF6949 /* KWExampleNodeVisitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWExampleNodeVisitor.h; path = Classes/Core/KWExampleNodeVisitor.h; sourceTree = "<group>"; };
@@ -591,12 +589,12 @@
 		A4D333C9E2E112C7AA53CC215511AABE /* LPDAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDAlertView.m; sourceTree = "<group>"; };
 		A52207E3A33DEE8F758512CEE39E08D5 /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
 		A5DC1DEA8308722A5D087989EDED69D0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		A6A2C12A940F80E4C3E61EB142FCC4DF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A2C12A940F80E4C3E61EB142FCC4DF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75473AEFAF6AFF90EE280B2BBD13094 /* KWContextNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContextNode.m; path = Classes/Nodes/KWContextNode.m; sourceTree = "<group>"; };
 		A7D069B0368DB13291940AAF036602EA /* SDiOSVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDiOSVersion.h; path = SDVersion/SDiOSVersion/SDiOSVersion.h; sourceTree = "<group>"; };
 		A881801379B6E321D907A69A909E29C7 /* NSObject+LPDSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LPDSwizzling.m"; path = "LPDAdditionsKit/Classes/NSObject+LPDSwizzling.m"; sourceTree = "<group>"; };
 		A8BE8BFD6163EDC3839BB9E716D2FA57 /* NSObject+KiwiSpyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiSpyAdditions.h"; path = "Classes/Core/NSObject+KiwiSpyAdditions.h"; sourceTree = "<group>"; };
-		A919B74232683067D926CB332B85E924 /* Kiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kiwi.framework; path = Kiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A919B74232683067D926CB332B85E924 /* Kiwi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kiwi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A983050789E05C3AFDEBF90A19EF5C0B /* UIView+LPDAccessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LPDAccessor.m"; path = "LPDAdditionsKit/Classes/UIView+LPDAccessor.m"; sourceTree = "<group>"; };
 		AA2C599316538765E31275B0A2A9D2F1 /* NSValue+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+KiwiAdditions.h"; path = "Classes/Core/NSValue+KiwiAdditions.h"; sourceTree = "<group>"; };
 		AB8998B8C94100B88351D431596BB552 /* KWBeZeroMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeZeroMatcher.h; path = Classes/Matchers/KWBeZeroMatcher.h; sourceTree = "<group>"; };
@@ -607,7 +605,7 @@
 		ADAD9F8F8F88C4B26A38F066EDE9A2EB /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.h"; sourceTree = "<group>"; };
 		AE1CF55FF3FAB7E298B79507D7D43C06 /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Classes/Core/KWMessagePattern.m; sourceTree = "<group>"; };
 		B015BE3AFE164A315865E153ADD032DF /* NSNumber+LPDMoneyAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+LPDMoneyAddition.m"; path = "LPDAdditionsKit/Classes/NSNumber+LPDMoneyAddition.m"; sourceTree = "<group>"; };
-		B01B8E4A138C11F48AFBA0233EAE2F94 /* LPDControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LPDControlsKit.modulemap; sourceTree = "<group>"; };
+		B01B8E4A138C11F48AFBA0233EAE2F94 /* LPDControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LPDControlsKit.modulemap; sourceTree = "<group>"; };
 		B049B682608D526BBD3CD7E64CF2A6DA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		B0A4A0B9D1F54505179302BD13A507CE /* KWStringContainsMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWStringContainsMatcher.m; path = Classes/Matchers/KWStringContainsMatcher.m; sourceTree = "<group>"; };
 		B1CFE926BD96B149983CB4B5BA0D18CE /* KWBackgroundTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBackgroundTask.h; path = Classes/Core/KWBackgroundTask.h; sourceTree = "<group>"; };
@@ -616,11 +614,11 @@
 		B271FE0DD0F619FB068E771D7CA9D6FF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		B278794A7577147551649B30668B7E60 /* KWFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFormatter.m; path = Classes/Core/KWFormatter.m; sourceTree = "<group>"; };
 		B32C5E33DE17CF86E1F8EC83ED65077F /* KiwiBlockMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KiwiBlockMacros.h; path = Classes/Core/KiwiBlockMacros.h; sourceTree = "<group>"; };
-		B477979544CA7E2BC97EDF4A3445A2CF /* Kiwi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kiwi.modulemap; sourceTree = "<group>"; };
+		B477979544CA7E2BC97EDF4A3445A2CF /* Kiwi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Kiwi.modulemap; sourceTree = "<group>"; };
 		B7ACB6C92D7B49CADD9892F2B79F81F6 /* KWNilMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNilMatcher.m; path = Classes/Matchers/KWNilMatcher.m; sourceTree = "<group>"; };
 		B7C4C7DC079DC273D32DB729133AC676 /* KWBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlock.h; path = Classes/Core/KWBlock.h; sourceTree = "<group>"; };
 		B8126278F5CE7EAEA60FFBDCD1525ACF /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		B85B369A1AEF9B1BB80D74589E564332 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDVersion.framework; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85B369A1AEF9B1BB80D74589E564332 /* SDVersion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDVersion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89FEC704F48C1D59AFD2F01D504EC1C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		B93E39A51393D1E1A60C5F291AE20E40 /* SDVersion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDVersion-dummy.m"; sourceTree = "<group>"; };
 		BB4F172AFDF7F41BC35C69A6ABDCAFF6 /* NSMethodSignature+KiwiAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+KiwiAdditions.m"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.m"; sourceTree = "<group>"; };
@@ -669,10 +667,8 @@
 		D4BB97E1228346C46419048B95F283E9 /* KWFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWFailure.m; path = Classes/Core/KWFailure.m; sourceTree = "<group>"; };
 		D52A9FA3C834AE7B789EA9E917C3E868 /* KWMatcherFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMatcherFactory.m; path = Classes/Core/KWMatcherFactory.m; sourceTree = "<group>"; };
 		D6F62D75A0C44D762CDD4CF866156673 /* KWInvocationCapturer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWInvocationCapturer.m; path = Classes/Core/KWInvocationCapturer.m; sourceTree = "<group>"; };
-		D6FCEB900894AAE95C6C21867537AF2A /* LPDAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDAlertController.h; sourceTree = "<group>"; };
 		D735A9E1BE2EC227CE88E39FC146E7D0 /* NSObject+KiwiVerifierAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+KiwiVerifierAdditions.h"; path = "Classes/Core/NSObject+KiwiVerifierAdditions.h"; sourceTree = "<group>"; };
 		D7D371D67FC17B3B810157626B0AD70A /* UIColor+LPDAddtion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+LPDAddtion.m"; path = "LPDAdditionsKit/Classes/UIColor+LPDAddtion.m"; sourceTree = "<group>"; };
-		D890E89E56ABCFBE91F1C441F40457A8 /* LPDAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDAlertController.m; sourceTree = "<group>"; };
 		DA4C5758F9DCDF274CA6BF067A428EB6 /* KWItNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWItNode.m; path = Classes/Nodes/KWItNode.m; sourceTree = "<group>"; };
 		DABFDB0169BF083662C70F41249039AB /* KWBeforeAllNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeforeAllNode.m; path = Classes/Nodes/KWBeforeAllNode.m; sourceTree = "<group>"; };
 		DB533F556A1BA2F20F5D0D264BFD6D65 /* KWGenericMatchEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWGenericMatchEvaluator.h; path = Classes/Matchers/KWGenericMatchEvaluator.h; sourceTree = "<group>"; };
@@ -682,7 +678,7 @@
 		DDD2DB52321952EAC189A131E01CC54C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF44FDB4F96E1E6E4B5BC72C7666EBB6 /* KWUserDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWUserDefinedMatcher.h; path = Classes/Matchers/KWUserDefinedMatcher.h; sourceTree = "<group>"; };
 		DFC3A8AD360FE512C581175D0A9ECADA /* KWBeIdenticalToMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeIdenticalToMatcher.m; path = Classes/Matchers/KWBeIdenticalToMatcher.m; sourceTree = "<group>"; };
-		E1086BDD99957855D1DF0EE790572897 /* Pods-LPDControlsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LPDControlsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E1086BDD99957855D1DF0EE790572897 /* Pods-LPDControlsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LPDControlsKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E1C049953EABA4575A7733C610A45FDC /* NSMutableArray+LPDStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+LPDStack.m"; path = "LPDAdditionsKit/Classes/NSMutableArray+LPDStack.m"; sourceTree = "<group>"; };
 		E27D989FA0FE4EECBA20DEA2E307D921 /* KWNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWNull.m; path = Classes/Core/KWNull.m; sourceTree = "<group>"; };
 		E2A7FC795D66E801A46275DFB9F4271B /* Pods-LPDControlsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LPDControlsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -696,7 +692,7 @@
 		E942910B30A73DE778ACB5F9319772B6 /* LPDPopupActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDPopupActionSheet.m; sourceTree = "<group>"; };
 		EA16CAA75591E7918FB443A1B0301C42 /* UIView+LPDBorders.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LPDBorders.m"; path = "LPDAdditionsKit/Classes/UIView+LPDBorders.m"; sourceTree = "<group>"; };
 		EB4F6A9F20E92AEB3EF77007B7F2EF25 /* KWStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStub.h; path = Classes/Stubbing/KWStub.h; sourceTree = "<group>"; };
-		EB5942CF2A81440A75CDD8EAB1E2CA6E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		EB5942CF2A81440A75CDD8EAB1E2CA6E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		ED8F9739FC5C4738CFE592F09A6FB189 /* NSDate+LPDNSDateRFC1123.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LPDNSDateRFC1123.m"; path = "LPDAdditionsKit/Classes/NSDate+LPDNSDateRFC1123.m"; sourceTree = "<group>"; };
 		EDC0A0C9111DCB0D6F47888F156A293C /* KWRegisterMatchersNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegisterMatchersNode.m; path = Classes/Nodes/KWRegisterMatchersNode.m; sourceTree = "<group>"; };
 		EE07925343C1A6588EBBA9FBFE46A088 /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Classes/Matchers/KWRespondToSelectorMatcher.m; sourceTree = "<group>"; };
@@ -705,7 +701,7 @@
 		EEE9521CED9A99E34C0FBEBFFFFBC6C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EF7503F752871A34C7378B06628B92CD /* UIScrollView+LPDAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+LPDAccessor.h"; path = "LPDAdditionsKit/Classes/UIScrollView+LPDAccessor.h"; sourceTree = "<group>"; };
 		EF883CB396A5C8E0CD7F74E4E8C8FC89 /* LPDPopupActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LPDPopupActionSheet.h; sourceTree = "<group>"; };
-		EF9890AC9FE1B3348AEC8FEDE7BBFEEB /* LPDControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPDControlsKit.framework; path = LPDControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9890AC9FE1B3348AEC8FEDE7BBFEEB /* LPDControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LPDControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCB6C699F4475F3D5B71D61541EFB59 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Classes/Matchers/KWBlockRaiseMatcher.h; sourceTree = "<group>"; };
 		F05C69129C56746193543E663DC5D686 /* RSA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSA.h; path = LPDAdditionsKit/Classes/RSA.h; sourceTree = "<group>"; };
 		F1648814BF2E1E060BF65DC4B93BE913 /* KWLetNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWLetNode.m; path = Classes/Nodes/KWLetNode.m; sourceTree = "<group>"; };
@@ -733,7 +729,7 @@
 		FE944CEAD57F3C56FB69568D76DBB10D /* KWChangeMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWChangeMatcher.m; path = Classes/Matchers/KWChangeMatcher.m; sourceTree = "<group>"; };
 		FF6BDDA6E8AE3F93037A3CEFF7E29775 /* NSNumber+LPDMoneyAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+LPDMoneyAddition.h"; path = "LPDAdditionsKit/Classes/NSNumber+LPDMoneyAddition.h"; sourceTree = "<group>"; };
 		FF9488EB43FCBA2CC6CBA3ACF74C9574 /* UIView+LPDBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LPDBadge.m"; path = "LPDAdditionsKit/Classes/UIView+LPDBadge.m"; sourceTree = "<group>"; };
-		FFFA92077E9F6E74014014D3020A16E0 /* Pods-LPDControlsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LPDControlsKit_Example.modulemap"; sourceTree = "<group>"; };
+		FFFA92077E9F6E74014014D3020A16E0 /* Pods-LPDControlsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LPDControlsKit_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -807,7 +803,6 @@
 			children = (
 				9DE9CB39C8AD1CAF3835727A5B4AAA35 /* Classes */,
 			);
-			name = LPDControlsKit;
 			path = LPDControlsKit;
 			sourceTree = "<group>";
 		};
@@ -844,7 +839,6 @@
 				197A256C808A0C420155CC507D0F4870 /* SDVersion.h */,
 				8ED5125686147EEA810D79DF39BB701E /* Support Files */,
 			);
-			name = SDVersion;
 			path = SDVersion;
 			sourceTree = "<group>";
 		};
@@ -858,7 +852,6 @@
 				D32357D5B5E2EDF7E9EA40D4FE947B7D /* LPDPopupView.h */,
 				3F33231FFE83DFEE11900F1737019A57 /* LPDPopupView.m */,
 			);
-			name = LPDPopupView;
 			path = LPDPopupView;
 			sourceTree = "<group>";
 		};
@@ -892,7 +885,6 @@
 				CCA2A333F1CC807307686D0DAA44E8B0 /* LPDRating.h */,
 				A0A3CA0D4369A3BFF0BDAC4254DE4229 /* LPDRating.m */,
 			);
-			name = LPDRating;
 			path = LPDRating;
 			sourceTree = "<group>";
 		};
@@ -926,7 +918,6 @@
 				B271FE0DD0F619FB068E771D7CA9D6FF /* ViewController+MASAdditions.m */,
 				2A37DDF1A8FFB415B09750BDCA83939C /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -950,7 +941,6 @@
 				3D2019CFE4A3D7826006B26590C5C8D7 /* LPDToastView.h */,
 				1C688948DD9F52E0F46B95E97703FB4A /* LPDToastView.m */,
 			);
-			name = LPDToastView;
 			path = LPDToastView;
 			sourceTree = "<group>";
 		};
@@ -960,7 +950,6 @@
 				4520B30BC7F89326DFD91195D711ACD4 /* LPDSegmented.h */,
 				F21DCE1EB67707C99852C9EC8252BE97 /* LPDSegmented.m */,
 			);
-			name = LPDSegmented;
 			path = LPDSegmented;
 			sourceTree = "<group>";
 		};
@@ -1036,7 +1025,6 @@
 				708ADC6358B0D931C32C1DC42327ED0E /* UIView+LPDFindSubView.m */,
 				4639D94BF24012E22EA91F6C60BD988F /* Support Files */,
 			);
-			name = LPDAdditionsKit;
 			path = LPDAdditionsKit;
 			sourceTree = "<group>";
 		};
@@ -1074,7 +1062,6 @@
 				6A9105DD6552653A0E586373444F0074 /* LPDSegmented */,
 				4EBC5E2139A8AD0BABE09B8F7700F7B0 /* LPDToastView */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -1106,12 +1093,9 @@
 		A386FA5692405ACCAD3F02FCC1475258 /* LPDAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				D6FCEB900894AAE95C6C21867537AF2A /* LPDAlertController.h */,
-				D890E89E56ABCFBE91F1C441F40457A8 /* LPDAlertController.m */,
 				0ADCE30FD8E844AAB8BD424461225E87 /* LPDAlertView.h */,
 				A4D333C9E2E112C7AA53CC215511AABE /* LPDAlertView.m */,
 			);
-			name = LPDAlertView;
 			path = LPDAlertView;
 			sourceTree = "<group>";
 		};
@@ -1135,7 +1119,6 @@
 				C80A8CB639F2A5A9375D35E9FCB3E770 /* LPDPlusCrossBarButtonItem.h */,
 				D167B9E817EBD1192D2E0CD7F1E896BE /* LPDPlusCrossBarButtonItem.m */,
 			);
-			name = LPDPlusCrossBarButtonItem;
 			path = LPDPlusCrossBarButtonItem;
 			sourceTree = "<group>";
 		};
@@ -1145,7 +1128,6 @@
 				C6F992955140A4E8A1C837924E4EB79C /* KxMenu.h */,
 				FCEB3FAEEFF4667937BA371D115D7756 /* KxMenu.m */,
 			);
-			name = KxMenu;
 			path = KxMenu;
 			sourceTree = "<group>";
 		};
@@ -1364,7 +1346,6 @@
 				58A3DAB8B79AA2E374DE25E616F9FDE4 /* NSValue+KiwiAdditions.m */,
 				03AFEB9C499A3EE8556100D2F61B14E5 /* Support Files */,
 			);
-			name = Kiwi;
 			path = Kiwi;
 			sourceTree = "<group>";
 		};
@@ -1453,7 +1434,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28BE847961D6B871A78A6113CE72EA0A /* KxMenu.h in Headers */,
-				EBF6D07135BADD36D3F73242926F11B8 /* LPDAlertController.h in Headers */,
 				91B5FD512F46B264110C4DD5D7EBA50C /* LPDAlertView.h in Headers */,
 				D208F59CF358D4639599D5D568F3D382 /* LPDControlsKit-umbrella.h in Headers */,
 				2821B68775EBD2A4FC0744812793CE8E /* LPDPlusCrossBarButtonItem.h in Headers */,
@@ -1913,7 +1893,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9D7AF6B85632CF39E599ED20574D9F7 /* KxMenu.m in Sources */,
-				0FFD572C3E2E4274E4E3C09593797B29 /* LPDAlertController.m in Sources */,
 				D7632B3B5B0AD1941A6C9D63CB2777AF /* LPDAlertView.m in Sources */,
 				472F6A0781991DA1659D116D6741ED12 /* LPDControlsKit-dummy.m in Sources */,
 				8DF258FD9228AC827BC149BDA7FF3795 /* LPDPlusCrossBarButtonItem.m in Sources */,
