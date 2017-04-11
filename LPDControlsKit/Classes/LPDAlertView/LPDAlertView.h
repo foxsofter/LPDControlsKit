@@ -32,44 +32,45 @@ typedef NS_ENUM(NSUInteger, LPDAlertActionType) {
 #pragma mark - show alert view without title
 
 + (void)show:(NSString *)message
-		 title:(NSString *)title
-		action:(void (^)(void))action;
+       title:(NSString *)title
+      action:(void (^)(void))action;
 
 + (void)show:(NSString *)message
-		title1:(NSString *)title1
-	  action1:(void (^)(void))action1
-		title2:(NSString *)title2
-	  action2:(void (^)(void))action2;
+      title1:(NSString *)title1
+     action1:(void (^)(void))action1
+      title2:(NSString *)title2
+     action2:(void (^)(void))action2;
 
 + (void)show:(NSString *)message
-		action:(LPDAlertAction *)action;
+      action:(LPDAlertAction *)action;
 
 + (void)show:(NSString *)message
-	  action1:(LPDAlertAction *)action1
-	  action2:(LPDAlertAction *)action2;
+     action1:(LPDAlertAction *)action1
+     action2:(LPDAlertAction *)action2;
 
 #pragma mark - show alert view with title.
 
 + (void)show:(NSString *)caption
-	  message:(NSString *)message
-		 title:(NSString *)title
-		action:(void (^)(void))action;
+     message:(NSString *)message
+       title:(NSString *)title
+      action:(void (^)(void))action;
 
 + (void)show:(NSString *)caption
-	  message:(NSString *)message
-		title1:(NSString *)title1
-	  action1:(void (^)(void))action1
-		title2:(NSString *)title2
-	  action2:(void (^)(void))action2;
+     message:(NSString *)message
+      title1:(NSString *)title1
+     action1:(void (^)(void))action1
+      title2:(NSString *)title2
+     action2:(void (^)(void))action2;
 
 + (void)show:(NSString *)caption
-	  message:(NSString *)message
-		action:(LPDAlertAction *)action;
+     message:(NSString *)message
+      action:(LPDAlertAction *)action;
 
 + (void)show:(NSString *)caption
-	  message:(NSString *)message
-	  action1:(LPDAlertAction *)action1
-	  action2:(LPDAlertAction *)action2;
+     message:(NSString *)message
+     action1:(LPDAlertAction *)action1
+     action2:(LPDAlertAction *)action2;
+
 
 + (void)show:(NSString *)caption
 messageAttributedText:(NSMutableAttributedString *)messageAttributedText
@@ -84,15 +85,15 @@ messageAttributedText:(NSMutableAttributedString *)messageAttributedText
 #pragma mark - show alert view with image and title.
 
 + (void)show:(UIImage*)image
-	  caption:(NSString *)caption
-	  message:(NSString *)message
-		action:(LPDAlertAction *)action;
+     caption:(NSString *)caption
+     message:(NSString *)message
+      action:(LPDAlertAction *)action;
 
 + (void)show:(UIImage*)image
-	  caption:(NSString *)caption
-	  message:(NSString *)message
-	  action1:(LPDAlertAction *)action1
-	  action2:(LPDAlertAction *)action2;
+     caption:(NSString *)caption
+     message:(NSString *)message
+     action1:(LPDAlertAction *)action1
+     action2:(LPDAlertAction *)action2;
 
 + (void)hideAll;
 
