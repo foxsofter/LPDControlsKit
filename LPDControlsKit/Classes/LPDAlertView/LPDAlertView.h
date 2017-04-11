@@ -71,6 +71,17 @@ typedef NS_ENUM(NSUInteger, LPDAlertActionType) {
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2;
 
+
++ (void)show:(NSString *)caption
+messageAttributedText:(NSMutableAttributedString *)messageAttributedText
+		action:(LPDAlertAction *)action;
+
++ (void)show:(NSString *)caption
+messageAttributedText:(NSMutableAttributedString *)messageAttributedText
+	  action1:(LPDAlertAction *)action1
+	  action2:(LPDAlertAction *)action2;
+
+
 #pragma mark - show alert view with image and title.
 
 + (void)show:(UIImage*)image
