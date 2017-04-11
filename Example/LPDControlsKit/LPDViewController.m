@@ -8,7 +8,6 @@
 
 #import "LPDViewController.h"
 #import "LPDAlertView.h"
-#import "LPDAlertController.h"
 
 @interface LPDViewController ()
 
@@ -44,12 +43,6 @@
     /*[LPDAlertView show:@"Test" title:@"TestTitle" action:^{
      NSLog(@"Test Clicked");
      }];*/
-    [LPDAlertController show:self
-                       title:@"标题"
-     //message:@"这个是单行"
-                     message:@"这个是LPDAlertController的默认样式啦啦啦这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式"
-                      action:@[[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil],
-                               [UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:nil]]];
 }
 
 - (void)testClicked2:(UIButton *)button {

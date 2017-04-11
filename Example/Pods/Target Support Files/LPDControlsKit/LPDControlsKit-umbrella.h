@@ -11,7 +11,6 @@
 #endif
 
 #import "KxMenu.h"
-#import "LPDAlertController.h"
 #import "LPDAlertView.h"
 #import "LPDPlusCrossBarButtonItem.h"
 #import "LPDPopupActionSheet.h"
