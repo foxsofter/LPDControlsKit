@@ -15,7 +15,7 @@
 #import "UIScreen+LPDAccessor.h"
 #import "UIView+LPDAccessor.h"
 #import "UIView+LPDBorders.h"
-#import "NSAttributedString+LPDCheck.h"
+#import "NSMutableAttributedString+LPDCheck.h"
 
 @implementation LPDAlertAction
 
@@ -197,18 +197,10 @@ attributedMessage:attributedMessage
      caption:(NSString *)caption
      message:(NSString *)message
      actions:(NSArray *)actions {
-    @synchronized(self) {
-        LPDAlertView *alertView = [[self alertViews] peekObject];
-        if (alertView) {
-            [alertView hide];
-        }
-        alertView = [[LPDAlertView alloc] init];
-        [alertView show:image
-      attributedCaption:[[NSMutableAttributedString alloc] initWithString:caption]
-      attributedMessage:[[NSMutableAttributedString alloc] initWithString:message]
-                actions:actions];
-        [[self alertViews] pushObject:alertView];
-    }
+    [self show:image
+attributedCaption:[[NSMutableAttributedString alloc] initWithString:caption]
+attributedMessage:[[NSMutableAttributedString alloc] initWithString:message]
+       actions:actions];
 }
 
 + (void)show:(UIImage*)image
@@ -267,11 +259,13 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
         captionLabel = [[UILabel alloc] init];
         if (NO == [attributedCaption hasAttributes]) {
             captionLabel.text = attributedCaption.string;
+            captionLabel.textColor = [UIColor colorWithHexString:@"#030303"];
+            captionLabel.font = [UIFont systemFontOfSize:17];
         } else {
+            [attributedCaption addBaseAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13],
+                                                   NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#797979"]}];
             captionLabel.attributedText = attributedCaption;
         }
-        captionLabel.textColor = [UIColor colorWithHexString:@"#030303"];
-        captionLabel.font = [UIFont systemFontOfSize:17];
         if (image) {
             captionLabel.textAlignment = NSTextAlignmentCenter;
         }
@@ -292,11 +286,13 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
         messageLabel = [[UILabel alloc] init];
         if (NO == [attributedMessage hasAttributes]) {
             messageLabel.text = attributedMessage.string;
+            messageLabel.textColor = [UIColor colorWithHexString:@"#797979"];
+            messageLabel.font = [UIFont systemFontOfSize:13];
         } else {
+            [attributedMessage addBaseAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13],
+                                                   NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#797979"]}];
             messageLabel.attributedText = attributedMessage;
         }
-        messageLabel.textColor = [UIColor colorWithHexString:@"#797979"];
-        messageLabel.font = [UIFont systemFontOfSize:13];
         messageLabel.numberOfLines = 0;
         if (image) {
             messageLabel.textAlignment = NSTextAlignmentCenter;

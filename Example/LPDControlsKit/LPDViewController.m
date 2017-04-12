@@ -59,10 +59,12 @@
     };
 
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"MessageAttributed"];
-    [attributedString setAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Arial-BoldItalicMT" size:18],      // 字体、字号
+    [attributedString setAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:30],      // 字体、字号
                                       NSForegroundColorAttributeName:[UIColor blueColor],
                                       NSBackgroundColorAttributeName:[UIColor brownColor]}
                               range:NSMakeRange(0, 10)];
+
+    [attributedString addAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18]} range:NSMakeRange(6, 6)];
 
     [LPDAlertView show:@"TestAttributed"
      attributedMessage:attributedString
