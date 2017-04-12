@@ -40,18 +40,33 @@
 }
 
 - (void)testClicked:(UIButton *)button {
-    /*[LPDAlertView show:@"Test" title:@"TestTitle" action:^{
-     NSLog(@"Test Clicked");
-     }];*/
+    LPDAlertAction *action = [[LPDAlertAction alloc] init];
+    action.title = @"Action";
+    action.action = ^{
+        NSLog(@"Test Clicked");
+    };
+
+    [LPDAlertView show:@"Test"
+               message:@"Message"
+                action:action];
 }
 
 - (void)testClicked2:(UIButton *)button {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"标题"
-                                                                             message:@"这个是LPDAlertController的默认样式啦啦啦这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式"
-                                                                      preferredStyle:UIAlertControllerStyleAlert];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
-    [alertController addAction:[UIAlertAction actionWithTitle:@"好的" style:UIAlertActionStyleDefault handler:nil]];
-    [self presentViewController:alertController animated:YES completion:nil];
+    LPDAlertAction *action = [[LPDAlertAction alloc] init];
+    action.title = @"Action";
+    action.action = ^{
+        NSLog(@"Test Clicked Attributed");
+    };
+
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"MessageAttributed"];
+    [attributedString setAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Arial-BoldItalicMT" size:18],      // 字体、字号
+                                      NSForegroundColorAttributeName:[UIColor blueColor],
+                                      NSBackgroundColorAttributeName:[UIColor brownColor]}
+                              range:NSMakeRange(0, 10)];
+
+    [LPDAlertView show:@"TestAttributed"
+     attributedMessage:attributedString
+                action:action];
 }
 
 @end

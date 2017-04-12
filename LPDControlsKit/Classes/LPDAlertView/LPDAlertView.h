@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 typedef NS_ENUM(NSUInteger, LPDAlertActionType) {
-  LPDAlertActionTypeDefault,
-  LPDAlertActionTypeCancel,
-  LPDAlertActionTypeDestructive,
+    LPDAlertActionTypeDefault,
+    LPDAlertActionTypeCancel,
+    LPDAlertActionTypeDestructive,
 };
 
 @interface LPDAlertAction : NSObject
@@ -71,16 +71,14 @@ typedef NS_ENUM(NSUInteger, LPDAlertActionType) {
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2;
 
++ (void)show:(NSString *)caption
+attributedMessage:(NSMutableAttributedString *)attributedMessage
+      action:(LPDAlertAction *)action;
 
 + (void)show:(NSString *)caption
-messageAttributedText:(NSMutableAttributedString *)messageAttributedText
-		action:(LPDAlertAction *)action;
-
-+ (void)show:(NSString *)caption
-messageAttributedText:(NSMutableAttributedString *)messageAttributedText
-	  action1:(LPDAlertAction *)action1
-	  action2:(LPDAlertAction *)action2;
-
+attributedMessage:(NSMutableAttributedString *)attributedMessage
+     action1:(LPDAlertAction *)action1
+     action2:(LPDAlertAction *)action2;
 
 #pragma mark - show alert view with image and title.
 
@@ -94,6 +92,8 @@ messageAttributedText:(NSMutableAttributedString *)messageAttributedText
      message:(NSString *)message
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2;
+
+#pragma mark - hide or exit.
 
 + (void)hideAll;
 
