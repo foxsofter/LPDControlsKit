@@ -255,7 +255,7 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
     }
 
     UILabel *captionLabel = nil;
-    if (attributedCaption && attributedCaption.length > 0) {
+    if (attributedCaption && attributedCaption.string.length > 0) {
         captionLabel = [[UILabel alloc] init];
         if (NO == [attributedCaption hasAttributes]) {
             captionLabel.text = attributedCaption.string;
