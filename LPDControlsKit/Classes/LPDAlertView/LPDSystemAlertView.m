@@ -50,19 +50,6 @@
     [self show:caption message:message actions:@[action1, action2]];
 }
 
-#pragma mark - show alert view without title
-
-+ (void)show:(NSString *)message
-      action:(LPDAlertAction *)action {
-    [self show:nil message:message actions:@[action]];
-}
-
-+ (void)show:(NSString *)message
-     action1:(LPDAlertAction *)action1
-     action2:(LPDAlertAction *)action2 {
-    [self show:nil message:message actions:@[action1, action2]];
-}
-
 #pragma mark - hide or exit.
 
 + (void)hideAll {

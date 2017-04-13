@@ -25,15 +25,6 @@
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2;
 
-#pragma mark - show alert view without title
-
-+ (void)show:(NSString *)message
-      action:(LPDAlertAction *)action;
-
-+ (void)show:(NSString *)message
-     action1:(LPDAlertAction *)action1
-     action2:(LPDAlertAction *)action2;
-
 #pragma mark - hide or exit.
 
 + (void)hideAll;

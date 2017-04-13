@@ -25,6 +25,7 @@
     _sampleTitles = @[@"LPDAlertViewNormal",
                       @"UIAlertController",
                       @"LPDAlertViewSystem无标题",
+                      @"LPDAlertViewSystem无正文",
                       @"LPDAlertViewSystem单行",
                       @"LPDAlertViewSystem多行"];
 
@@ -104,12 +105,13 @@
     actionCancel.action = ^{
         NSLog(@"Test Clicked: 取消");
     };
-    [LPDSystemAlertView show:@"默认样式"
+    [LPDSystemAlertView show:nil
+                     message:@"正文正文"
                      action1:actionCancel
                      action2:actionOK];
 }
 
-- (void)LPDAlertViewSystem单行 {
+- (void)LPDAlertViewSystem无正文 {
     LPDAlertAction *actionOK = [[LPDAlertAction alloc] init];
     actionOK.title = @"好的";
     actionOK.action = ^{
@@ -121,9 +123,20 @@
         NSLog(@"Test Clicked: 取消");
     };
     [LPDSystemAlertView show:@"标题标题"
-                     message:@"默认样式"
+                     message:nil
                      action1:actionCancel
                      action2:actionOK];
+}
+
+- (void)LPDAlertViewSystem单行 {
+    LPDAlertAction *actionOK = [[LPDAlertAction alloc] init];
+    actionOK.title = @"好的";
+    actionOK.action = ^{
+        NSLog(@"Test Clicked: 好的");
+    };
+    [LPDSystemAlertView show:@"标题标题"
+                     message:@"默认样式"
+                      action:actionOK];
 }
 
 - (void)LPDAlertViewSystem多行 {
@@ -136,11 +149,6 @@
     actionCancel.title = @"取消";
     actionCancel.action = ^{
         NSLog(@"Test Clicked: 取消");
-    };
-    LPDAlertAction *actionUnknown = [[LPDAlertAction alloc] init];
-    actionUnknown.title = @"未知";
-    actionUnknown.action = ^{
-        NSLog(@"Test Clicked: 未知");
     };
     [LPDSystemAlertView show:@"标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
                      message:@"这个是LPDAlertController的默认样式啦啦啦这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式"
