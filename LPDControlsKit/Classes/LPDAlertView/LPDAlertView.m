@@ -112,7 +112,7 @@
 attributedMessage:(NSMutableAttributedString *)attributedMessage
       action:(LPDAlertAction *)action {
     [self show:nil
-attributedCaption:[[NSMutableAttributedString alloc] initWithString:caption]
+attributedCaption:caption == nil ? nil : [[NSMutableAttributedString alloc] initWithString:caption]
 attributedMessage:attributedMessage
        actions:@[action]];
 }
@@ -122,7 +122,7 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2 {
     [self show:nil
-attributedCaption:[[NSMutableAttributedString alloc] initWithString:caption]
+attributedCaption:caption == nil ? nil : [[NSMutableAttributedString alloc] initWithString:caption]
 attributedMessage:attributedMessage
        actions:@[action1, action2]];
 }
@@ -198,8 +198,8 @@ attributedMessage:attributedMessage
      message:(NSString *)message
      actions:(NSArray *)actions {
     [self show:image
-attributedCaption:[[NSMutableAttributedString alloc] initWithString:caption]
-attributedMessage:[[NSMutableAttributedString alloc] initWithString:message]
+attributedCaption:caption == nil ? nil : [[NSMutableAttributedString alloc] initWithString:caption]
+attributedMessage:message == nil ? nil : [[NSMutableAttributedString alloc] initWithString:message]
        actions:actions];
 }
 

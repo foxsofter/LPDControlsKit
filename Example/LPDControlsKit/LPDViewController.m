@@ -23,6 +23,7 @@
     [super viewDidLoad];
 
     _sampleTitles = @[@"LPDAlertViewNormal",
+                      @"LPDAlertViewNormal都没有",
                       @"UIAlertController",
                       @"LPDAlertViewSystem无标题",
                       @"LPDAlertViewSystem无正文",
@@ -82,6 +83,18 @@
 
     [LPDAlertView show:@"TestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributedTestAttributed"
      attributedMessage:attributedString
+                action:action];
+}
+
+- (void)LPDAlertViewNormal都没有 {
+    LPDAlertAction *action = [[LPDAlertAction alloc] init];
+    action.title = @"Action";
+    action.action = ^{
+        NSLog(@"Test Clicked: Action");
+    };
+
+    [LPDAlertView show:nil
+     attributedMessage:nil
                 action:action];
 }
 
