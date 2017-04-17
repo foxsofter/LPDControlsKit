@@ -257,6 +257,7 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
     UILabel *captionLabel = nil;
     if (attributedCaption && attributedCaption.string.length > 0) {
         captionLabel = [[UILabel alloc] init];
+		  captionLabel.numberOfLines = 0;
         if (NO == [attributedCaption hasAttributes]) {
             captionLabel.text = attributedCaption.string;
             captionLabel.textColor = [UIColor colorWithHexString:@"#030303"];
