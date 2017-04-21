@@ -77,7 +77,10 @@
     [attributedString setAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:30],      // 字体、字号
                                       NSForegroundColorAttributeName:[UIColor blueColor],
                                       NSBackgroundColorAttributeName:[UIColor brownColor]}
-                              range:NSMakeRange(0, 10)];
+                              range:NSMakeRange(0, 2)];
+    [attributedString addAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:30],      // 字体、字号
+                                      NSForegroundColorAttributeName:[UIColor redColor],
+                                      NSBackgroundColorAttributeName:[UIColor blackColor]} range:NSMakeRange(6, 2)];
 
     [attributedString addAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:18]} range:NSMakeRange(6, 6)];
 

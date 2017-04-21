@@ -35,7 +35,15 @@
 }
 
 - (NSDictionary<NSString *, id> *)attributes {
-    return [self attributesAtIndex:0 longestEffectiveRange:nil inRange:NSMakeRange(0, self.length)];
+    for (int index = 0; index < self.length; ++index) {
+        NSDictionary<NSString *, id> *tempValue = [self attributesAtIndex:index
+                                                    longestEffectiveRange:nil
+                                                                  inRange:NSMakeRange(index, self.length - index)];
+        if (nil != tempValue && tempValue.count > 0) {
+            return tempValue;
+        }
+    }
+    return nil;
 }
 
 @end
