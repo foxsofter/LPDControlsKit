@@ -80,6 +80,11 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2;
 
++ (void)show:(UIImage*)image
+attributedCaption:(NSMutableAttributedString *)attributedCaption
+attributedMessage:(NSMutableAttributedString *)attributedMessage
+     actions:(NSArray *)actions;
+
 #pragma mark - show alert view with image and title.
 
 + (void)show:(UIImage*)image
