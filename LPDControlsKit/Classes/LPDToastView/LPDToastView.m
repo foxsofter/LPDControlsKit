@@ -245,11 +245,7 @@ tappedAction:(void (^)(LPDToastView *toastView))action {
   if (!self.superview) {
     NSEnumerator *frontToBackWindows = [[[UIApplication sharedApplication] windows] reverseObjectEnumerator];
 
-    for (UIWindow *window in frontToBackWindows)
-      if (window.windowLevel == UIWindowLevelNormal && !window.hidden) {
-        [window addSubview:self];
-        break;
-      }
+    [[UIApplication sharedApplication].keyWindow addSubview:self];
   }
   self.transform = CGAffineTransformMakeScale(0.1, 0.1);
   self.alpha = 0;
@@ -318,11 +314,7 @@ cornerRadius:(CGFloat)cornerRadius isTopWindow:(BOOL)isTop {
 	 } else {
 	 NSEnumerator *frontToBackWindows = [[[UIApplication sharedApplication] windows] reverseObjectEnumerator];
 	 
-	 for (UIWindow *window in frontToBackWindows)
-		if (window.windowLevel == UIWindowLevelNormal && !window.hidden) {
-		  [window addSubview:self];
-		  break;
-		}
+     [[UIApplication sharedApplication].keyWindow addSubview:self];
 	 }
   }
   self.transform = CGAffineTransformMakeScale(0.1, 0.1);
