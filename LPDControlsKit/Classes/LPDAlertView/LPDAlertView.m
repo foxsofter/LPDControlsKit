@@ -295,9 +295,7 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
             messageLabel.attributedText = attributedMessage;
         }
         messageLabel.numberOfLines = 0;
-        if (image) {
-            messageLabel.textAlignment = NSTextAlignmentCenter;
-        }
+
         [_contentView addSubview:messageLabel];
         [messageLabel mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.equalTo(@27);
