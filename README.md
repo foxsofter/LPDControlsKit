@@ -17,7 +17,7 @@ LPDControlsKit is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LPDControlsKit", '~> 0.1.8'
+pod "LPDControlsKit", '~> 0.1.9'
 ```
 
 ## Author
