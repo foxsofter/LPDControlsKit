@@ -9,6 +9,7 @@
 #import "LPDViewController.h"
 #import "LPDAlertView.h"
 #import "LPDSystemAlertView.h"
+#import "UIColor+LPDAddition.h"
 
 @interface LPDViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -28,7 +29,8 @@
                       @"LPDAlertViewSystem无标题",
                       @"LPDAlertViewSystem无正文",
                       @"LPDAlertViewSystem单行",
-                      @"LPDAlertViewSystem多行"];
+                      @"LPDAlertViewSystem多行",
+                      @"LPDAlertViewSystem多行带样式"];
 
     [self setTableView];
 }
@@ -170,6 +172,30 @@
                      message:@"这个是LPDAlertController的默认样式啦啦啦这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式这个是LPDAlertController的默认样式"
                      action1:actionCancel
                      action2:actionOK];
+}
+
+- (void)LPDAlertViewSystem多行带样式 {
+    NSMutableAttributedString *testString = [[NSMutableAttributedString alloc] initWithString:@"标题标题标题标题标题标题标题标题标题标题标题标题标题标题"];
+    [testString addAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:10],
+                                NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#123456"]}
+                        range:NSMakeRange(3, 10)];
+
+    LPDAttributedAlertAction *actionOK = [[LPDAttributedAlertAction alloc] init];
+    actionOK.attributedTitle = testString;
+    actionOK.action = ^{
+        NSLog(@"Test Clicked: 好的");
+    };
+    actionOK.actionType = LPDAlertActionTypeDefault;
+    LPDAttributedAlertAction *actionCancel = [[LPDAttributedAlertAction alloc] init];
+    actionCancel.attributedTitle = testString;
+    actionCancel.action = ^{
+        NSLog(@"Test Clicked: 取消");
+    };
+    actionOK.actionType = LPDAlertActionTypeCancel;
+    [LPDSystemAlertView show:testString
+           attributedMessage:testString
+           attributedAction1:actionOK
+           attributedAction2:actionCancel];
 }
 
 @end
