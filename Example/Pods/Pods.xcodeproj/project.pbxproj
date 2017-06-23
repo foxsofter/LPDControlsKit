@@ -13,6 +13,7 @@
 		0217A05BDEA60ADB32F529A3286D258C /* NSNumber+LPDMoneyAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B015BE3AFE164A315865E153ADD032DF /* NSNumber+LPDMoneyAddition.m */; };
 		035910E3D96E2211E3DD6AAC1DCE3CBE /* KWMock.h in Headers */ = {isa = PBXBuildFile; fileRef = BE51ED521D9A129D710108A278EB70CA /* KWMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04DE92AD06608BD8B959B89D9E60D1EA /* LPDRating.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB61986B167D107DA7EB49E0E994F9 /* LPDRating.m */; };
+		04E4C83FEF3CA003DF763D37124B5914 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		05FE0F2F0AA21B529737BA004D7053B6 /* KWBeforeEachNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF47C10D5D8E49EBC6295FE7500795A /* KWBeforeEachNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0627DA7DC67A276F336E14C61AD0D4D5 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DC1DEA8308722A5D087989EDED69D0 /* MASViewAttribute.m */; };
 		0629F1455B078FB79932D188A5F5586B /* KWConformToProtocolMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 89581FD7472AB129A67421F111CA6559 /* KWConformToProtocolMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -22,8 +23,8 @@
 		0B8A1D2930A2D3B9317C9F3F3AAA2032 /* UIScreen+LPDAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CEE9AC6CD15F529A86A1F441D753DD /* UIScreen+LPDAccessor.m */; };
 		0BF24BCAE0DE2F8182C659AA71C3429D /* KWStringContainsMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A4A0B9D1F54505179302BD13A507CE /* KWStringContainsMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0C9EB2C4578DB163B5261FDA4EA13F2B /* KWBlockNode.m in Sources */ = {isa = PBXBuildFile; fileRef = C50F2A658359B666E5CE68C364F7468D /* KWBlockNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0E05EB4B58FB182CA2DC59F4E7255629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		0E13B04C70C4C2895C4DD9C7ACE957F3 /* KWFutureObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2141AC641BC0BDD95F1BAD93105BBD15 /* KWFutureObject.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1010534B40894268A673B16193B0F8EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA670FCCAE3D834A024D48B856DBFD4 /* XCTest.framework */; };
 		10BFAF99C6082BB14A7A4B8D81DA01CD /* KWContextNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0706DDF3C0A9682D9E60B263C8CC65F3 /* KWContextNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12B832DE307BD43617EC84DC5E777BCD /* KWWorkarounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D3F7437AD19FDEF74375313A4F1B199 /* KWWorkarounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1449518041503E7ACDB77022A68261D2 /* KWBeZeroMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A0BEAF04D66110C7CEA253E90F1D0 /* KWBeZeroMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -59,13 +60,13 @@
 		25172335D8E38C1C9425466A0B78A02A /* KWStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4885CEF2DDD3B4E8496D1631EE5BB5C3 /* KWStringUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2643AA16C7326FD180E02ADCE038E679 /* NSMethodSignature+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4F172AFDF7F41BC35C69A6ABDCAFF6 /* NSMethodSignature+KiwiAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		264993F1A6274826F127086067D8DDA3 /* UIDevice+LPDAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = E79F0C2C2EC9DE89253E2BAA790A0106 /* UIDevice+LPDAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28A3BCA13A813AA484CABAAD5FDA1A70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE9521CED9A99E34C0FBEBFFFFBC6C6 /* UIKit.framework */; };
 		29DEC0FAF6AF7EA9D841634E4DD5A31D /* NSObject+KiwiStubAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5531A493C90F99EA8767A803E1425EA5 /* NSObject+KiwiStubAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		2BAC96DD625062C3A41F7BC2DF814009 /* KxMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0353615263D7E4440725235510043D92 /* KxMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D41DA4103E603B263BD5151B9145AE0 /* KWMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 280A116991C932212A2AC9438DE48DC2 /* KWMatching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D8C34670E26D08F907EB46BB5E27149 /* KWBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C4C7DC079DC273D32DB729133AC676 /* KWBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E3B8A5ED919648BE613CC9B26D47150 /* LPDPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD606C7094CD8430C681B660311257D2 /* LPDPopupView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E57B0924487B774D1A5E79911CBC859 /* KWExampleSuiteBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A9C11436F99D94187F2D4F410F96DB /* KWExampleSuiteBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F425E903AB6FDF67D424C7003CC64A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		2FE8C88733D882FAAB455CEC6D893B4F /* KWExistVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D962996A4EBF558F7162B0621AC1F8F /* KWExistVerifier.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		3048F4F348CBAE9F20B91E8B3C06EB19 /* UIControl+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A3040146702ED88D6AD69BE216B9E531 /* UIControl+Block.m */; };
 		305B254B381C9A3C1131E07C03752E3C /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 531D64268DB44D7FCF766482C46ACE2F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -105,7 +106,6 @@
 		4F932F5B556C639DDB006453EF1A65D0 /* KiwiBlockMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B32C5E33DE17CF86E1F8EC83ED65077F /* KiwiBlockMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		51685EE3CA379CA71AF72AA8332A45AF /* KWInvocationCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F62D75A0C44D762CDD4CF866156673 /* KWInvocationCapturer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		518417CDEC3362A0AEB774E65344CB13 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1806FE11E6CB6D2CA1E7C09175239784 /* MASViewConstraint.m */; };
-		51B2937E09F2484FD552D6F59461B7AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		52FF6D9BE2D5B3604472B9D1005BC6D6 /* KWDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 68CD26DF1091D375351D874066320829 /* KWDeviceInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		54BECFDC58AD3FC45F083276D07A7596 /* KWCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4801FFDC6E3678AF134F07332D46EE7E /* KWCallSite.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		55150399E37D42EFD16CF1F831F78761 /* NSObject+KiwiSpyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3D4430456C60241E3AE529250C2AD3 /* NSObject+KiwiSpyAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -120,10 +120,10 @@
 		5A4525A1FDC8FA1712D6AC6FD90E3A57 /* KWAsyncVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD45ED91F37FA0542F9025A58253004 /* KWAsyncVerifier.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		5A873109B9CC4692506A2897D0C4FF0A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B8126278F5CE7EAEA60FFBDCD1525ACF /* MASConstraint.m */; };
 		5BED57C87680E229586A0A3D380CF1FD /* KWUserDefinedMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7444DC5311EDDDB0138015B2F6C545BF /* KWUserDefinedMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5C52CDB56D491C453775F58595E0C181 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		5DCE9C076FC17B9A1EABB2BB44FE91B7 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B271FE0DD0F619FB068E771D7CA9D6FF /* ViewController+MASAdditions.m */; };
 		5F15304F06BAA09E176CEF6238DA8AAC /* KWValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D04F48951B6E7828185436A28B55556 /* KWValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		619ADB552A5427FC6752A870C1C1E0B6 /* NSNull+NSNullSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA7B2668BDDE8224DF5D3BE7F74CB3D /* NSNull+NSNullSafe.m */; };
+		628BBB3AFA6CCDD8D6B0B57C7FDD15DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E131B2F0AA3DE280DE20AC423B5CF6 /* UIKit.framework */; };
 		64A54A3EC67904B11125BB6544E5324F /* UIControl+Block.h in Headers */ = {isa = PBXBuildFile; fileRef = 70FFA58A06A9D7CEDC7AF3AE0CA1B0D0 /* UIControl+Block.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		651E711E9EB3BE180F64C29861522900 /* NSValue+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2C599316538765E31275B0A2A9D2F1 /* NSValue+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6534635DAE1A061BBCC127E1466C5449 /* KWSymbolicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D901A5190E37D49FB79008ADF37C2FB /* KWSymbolicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -136,6 +136,7 @@
 		676CDAA580D2AC95492B8396D8D21FD4 /* NSObject+LPDAssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7082675FF073BA5CFE3433303EA9BA29 /* NSObject+LPDAssociatedObject.m */; };
 		687FFAAC24C15262D4C923BCF5A7E278 /* UINavigationItem+LPDAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = F2AE2A73D18044C4759AD890D25332C5 /* UINavigationItem+LPDAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A177E053CFE94820162705BDEFA836C /* KWLet.h in Headers */ = {isa = PBXBuildFile; fileRef = 610AE83A95DBCFF2E902F89285C30A08 /* KWLet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AAB5F568DAD2D94FEFC26A04BE12F21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		6B71E732BCD10095E842764A1058D8C3 /* KWGenericMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4508538EA95333B6FB480C61E7A85CD2 /* KWGenericMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6CF934D1B305BDF50780187B752C167C /* KWEqualMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BD858178F2B2FA3EC7CCD6A3C202BE86 /* KWEqualMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6DD1072589880E9BEF1D96202F3C4835 /* LPDPopupPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C40667C49A56EDF476BE6F7A53C8688D /* LPDPopupPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -152,7 +153,6 @@
 		78966619B22098339A78DFAF433DF933 /* KWUserDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DF44FDB4F96E1E6E4B5BC72C7666EBB6 /* KWUserDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79F448AE353804CD1C66B9ADBB8688B3 /* KWPendingNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4F0776C93D4DC578E174259CF1AB2A /* KWPendingNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		7A3B05D2C3CD94AF966486267BA74C4F /* NSInvocation+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 710B2CE7B1EF585FD31472C4EC52F438 /* NSInvocation+KiwiAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7A60C0FEC0E5DFE6B5CF97962C4696B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE9521CED9A99E34C0FBEBFFFFBC6C6 /* UIKit.framework */; };
 		7C2C56BA1AEC2476C914F30AAA538B26 /* KWSharedExampleRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DD1C5D8029483425CF237926324BA4 /* KWSharedExampleRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C45424E97752D3AF7F9CA30C92BCBF9 /* LPDPopupActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = A3003819683C524E6CD7AB48460CB7DD /* LPDPopupActionSheet.m */; };
 		7C61F7BAF0568E6F224998B8A5DA3B29 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 444A02CFB26A985B8D172FE531E8063E /* MASLayoutConstraint.m */; };
@@ -165,7 +165,6 @@
 		890E05781CA9823560139547D08B9842 /* Kiwi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7894ACC1426D0B35F3A7D8F6116586E9 /* Kiwi-dummy.m */; };
 		89637577856431A630598C3C702B01D5 /* UIView+LPDFindSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 708ADC6358B0D931C32C1DC42327ED0E /* UIView+LPDFindSubView.m */; };
 		8AE140717EC43CB6CD24D3E58D00E3CC /* Kiwi.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EDD7CBECD573AC6D6E257D5FAA8EB8D /* Kiwi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BB8686674F125D2EEF290517F42628C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		8C0C52BB13AD64014555B9C49855D2A8 /* KWExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4963060E83BE3F594FD58CD0593AB559 /* KWExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		8D2D417B70A23B31A52D16456CF99C00 /* KWGenericMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0EE2AB38654102B0C65E5AFE7ACCBD /* KWGenericMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D3763EB3EAE202AF79E3B9BA07099B5 /* LPDAdditionsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4402ECFE3ECEC3D09B0B537B76EFC3F7 /* LPDAdditionsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -180,7 +179,6 @@
 		92EC399FB96B3E62EFB549881CD5F358 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFD49210F8CEDE9CEABDEBE9DA2D7BA /* MASConstraintMaker.m */; };
 		9399EBDF1CE5B61DFA55BB8E6C56683E /* KWHaveValueMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA547740E41581F7205CEC4358483A7 /* KWHaveValueMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		93C735DEF23D21771E67B8D0614E1937 /* KWAfterAllNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 108411992C5AE7187DD7242641804DE0 /* KWAfterAllNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9422E2328E7BEE45D443F3C9A4EEA1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		94ABAA8761CF91C2892566315C8F989D /* KWMatchers.m in Sources */ = {isa = PBXBuildFile; fileRef = 074BE7B3FD70BC51F49AF3A41F70C1DB /* KWMatchers.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		94B88AE0EBBB8D8D34B7E10BBA535AEF /* KWExampleSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BF745E49C7DA82A543A6AB4F0057064A /* KWExampleSuiteBuilder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		9554DEE7D6922CB22CD99230311114BB /* KWConformToProtocolMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4576F76D7514ECC5BAAD7852B829117A /* KWConformToProtocolMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -222,10 +220,12 @@
 		ABAEB220D8F1F97279AE1FC528E8EF04 /* KWBeMemberOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB847264555D92E5397E468E2956562 /* KWBeMemberOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFD2D4089547F692DE623D62EEC5F307 /* KWFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B278794A7577147551649B30668B7E60 /* KWFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B002C5ABF4BDE53D3BEB905D4A437CA7 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D7E89BE029D360D0DD0AD9E2D74ED5 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1237CFB9E7EE7F303B4ECE7C63C7ADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		B1B815E9971506A043AAC594F99F2AC9 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 806A4279F9AC1509FE5A029BBA5B1649 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2FEBE85993B9714A7E9FD3082F3564C /* LPDLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D0C31C84EFF353FFFE62DEB888B474 /* LPDLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B33CE7AF9482AD2861361C4B4D13BC96 /* NSNumber+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F750334FDE31483CCFBD33C952533BBF /* NSNumber+KiwiAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		B3A9352EF83606BBC11D060CE0B7788C /* UIDevice+LPDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 855D3A71E4A889A7F2EF9E7069D0843A /* UIDevice+LPDAddition.m */; };
+		B503B292EE17422E9463455D1C05B89E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		B52069E447C90C948492AA3492A00C61 /* KWExampleNodeVisitor.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BA561C23239C445AF123E785BF6949 /* KWExampleNodeVisitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6FB21DCD638999FA2A3484D0F8F0EBF /* Kiwi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2164C56634DE09BA54D7EA4E307B75D7 /* Kiwi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7F022431FB6693EF5A4C4A3E792803F /* KWMatchers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FB80E7CE7EE20B999E54D9649D6343E /* KWMatchers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -233,7 +233,6 @@
 		B8BF4CF4222A4ACAA0D206B4E7E06E8F /* KWDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C2EACCEB26BD5CA4CD2757C074889444 /* KWDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B966025AEF3CB54A2F8D8FBD292723AF /* NSArray+LPDRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B1916F4778B787F3EB3F3EBD0917D2 /* NSArray+LPDRandom.m */; };
 		BC8CCE24E583DFF4F7922EE69C6EFDC2 /* KWRegularExpressionPatternMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7D42473FA21AFDB8845AF1589E8E3 /* KWRegularExpressionPatternMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		BD7BF297A0A78BEBE999068706ADDE08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		BE7BB40C39FFF0CC32D9C7978EDFEFFC /* UIButton+LPDAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = BF51E8F1DD33788AB5E76855FE86D00B /* UIButton+LPDAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF035E64CF75DD04FE634B0B0FF975D4 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 85253C899DF68C34CA6860DED844EAE7 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BFD1E60DE3BE78A3438C35F0E2A2A778 /* KWBackgroundTask.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CFE926BD96B149983CB4B5BA0D18CE /* KWBackgroundTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -241,7 +240,6 @@
 		C2FD5C563204BA8B0B974133428C335F /* UIImage+LPDAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E49CE3BD41C732BA242C718B2556F7 /* UIImage+LPDAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C36451542704BC745CBB1FFA23922ED3 /* KWStub.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4F6A9F20E92AEB3EF77007B7F2EF25 /* KWStub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C412C17E999025542E8EA3990BF58E3D /* KWLetNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F1648814BF2E1E060BF65DC4B93BE913 /* KWLetNode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C4BD256CD5EEA6C8BA454B37E6B6CDF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */; };
 		C4BD2AB5BA0C5DB2C8012D15F991955C /* UIImage+LPDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3AD5F86E630EE89B1F72F9131B8CCB /* UIImage+LPDAddition.m */; };
 		C55086BD84EC41626E1389DE518B3FB9 /* NSString+LPDAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE97BE76FA808CA4C5B5E3463A9A6D2 /* NSString+LPDAddition.m */; };
 		C7F299326D824C745064842306F960B8 /* KWExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 007F4DE0C949E447A44F050F1974F095 /* KWExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -266,7 +264,6 @@
 		D672A64AB64868AE4E6F084A415F5F45 /* UIView+LPDBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9488EB43FCBA2CC6CBA3ACF74C9574 /* UIView+LPDBadge.m */; };
 		D6E2C3C07B9C62974074FCA0A1169A5B /* KWMatchVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = CF83E86206D68A48125DDE2A8BFD960B /* KWMatchVerifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7B3AEE6204645A834A2D8241E6D2052 /* KWGenericMatchingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967B31C61C2A52650A6C7777DB27553 /* KWGenericMatchingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D8891DF93165B1EE6A1A82496175876D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E7CC1FE58F2554286FA0ABB086BDDAE /* XCTest.framework */; };
 		D9FAF572C013C1F957FB56E2B12BD9CA /* KWInvocationCapturer.h in Headers */ = {isa = PBXBuildFile; fileRef = 102D188D9ABA9C8987491748743C9D85 /* KWInvocationCapturer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA8E3A43BA313CC27F73AAFB745B9F98 /* LPDSegmented.h in Headers */ = {isa = PBXBuildFile; fileRef = D349B649417F7BBDFB55B788B5E384F6 /* LPDSegmented.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAC698C0A7CD737F76544375B381AB5D /* KWExampleDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A4D951C167D6DF3B460CB42DBC7992 /* KWExampleDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -279,6 +276,7 @@
 		E089699B19E0205E6FF261E8AFD255A7 /* NSObject+LPDThread.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F6C800594D4B3868A57259B2987740 /* NSObject+LPDThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1A2A2604B62B71837306DB6B9AFED5E /* KWContainStringMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DC74F46CE0324FFB70383859458F006B /* KWContainStringMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E1DE22CA21F615E0C469B07D7BD03DC6 /* KWBeKindOfClassMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA1145AAA96259A81AA67B39120E408 /* KWBeKindOfClassMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E36057BEEDEBE6480256970C1241AE2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		E3674B06158AF16CFC66AFFCB55C8699 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 908E6C2A321F5F17294A4A6B1F08EE6D /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3A990E5163D7DE66E1930A54A23212C /* KWExpectationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 245B7354D72C163C93DFFE62909C5CFC /* KWExpectationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3ABA567FA3A5E1D92D86C5DE85E9E63 /* KWStringPrefixMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C539BE1D3461F27D42C655C769F88 /* KWStringPrefixMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -307,12 +305,14 @@
 		F60E411CD4BDD959ADFFC1434EAC461B /* KWItNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 44AD7B5FE293A0E33DC1618DF1321BE8 /* KWItNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6EBF111EBCACF88F4AFCF42FD905813 /* KWSharedExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D118ADB71A59063F4DF26BA6DDB861 /* KWSharedExample.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F74FBDC7491459DE3309B6C4DCC5D386 /* KWEqualMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EE88D22F9F01B4BCA62E4E87D4B16987 /* KWEqualMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7F0AB7258DDE4362BBC52D658814214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E131B2F0AA3DE280DE20AC423B5CF6 /* UIKit.framework */; };
 		F838BE2F4D45E0F314CA3020BE3A72EF /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2ED7AE988AEBAD8D7FA260167B8519 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8E7626BB725242D8FC747A6CB535C2F /* NSDate+LPDNSDateRFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8F9739FC5C4738CFE592F09A6FB189 /* NSDate+LPDNSDateRFC1123.m */; };
 		F90A8097D3CE59DE0D13C484BA833EE8 /* KWBeEmptyMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D44A41281BFB4A80CBC454924FAB6E65 /* KWBeEmptyMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F90F9E1F3BA4ACCB6787C7CD69A85B88 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 749753C4C2ED85BCDB15F70D94395268 /* Masonry-dummy.m */; };
 		F959FDB1ACA6861154381B7D58411530 /* NSValue+KiwiAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A3DAB8B79AA2E374DE25E616F9FDE4 /* NSValue+KiwiAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		F9D3BD0265B776D5DC4A75938E546A70 /* KiwiMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E3DDDBDC0E30EC80E7AFA7EAA6EBC35C /* KiwiMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA1FEB8841D492F0181375F9155AE12F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */; };
 		FA4B340DEF4D1B6C4CAF3C808D82B9FA /* NSObject+KiwiMockAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A264A22DD8106EAFDCB8C8DBE2DFA3 /* NSObject+KiwiMockAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA8820A9B211F92ED2ADF97F503502EB /* KWReceiveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 53FDC90CB6869A7309EE27EA2D6B28D3 /* KWReceiveMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAE64C1F78866AB31F3E3337060FF9B5 /* KWReceiveMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F86EF420D8C7C6F739C8C4481210A10 /* KWReceiveMatcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
@@ -425,7 +425,6 @@
 		1C7FBDEF124B7131F7AD731DB32ACF8E /* KWBlockNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockNode.h; path = Classes/Nodes/KWBlockNode.h; sourceTree = "<group>"; };
 		1C8EB1D24E1F382ABCD6FA342DF991D3 /* KWSharedExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWSharedExample.h; path = "Classes/Shared Examples/KWSharedExample.h"; sourceTree = "<group>"; };
 		1C97D95156AE174E25FB7EBB72B8192F /* NSInvocation+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+KiwiAdditions.h"; path = "Classes/Core/NSInvocation+KiwiAdditions.h"; sourceTree = "<group>"; };
-		1E7CC1FE58F2554286FA0ABB086BDDAE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1F3D4430456C60241E3AE529250C2AD3 /* NSObject+KiwiSpyAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KiwiSpyAdditions.m"; path = "Classes/Core/NSObject+KiwiSpyAdditions.m"; sourceTree = "<group>"; };
 		1F9B393A3DD8D2A939391D5B3B77F17A /* Pods-LPDControlsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LPDControlsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		200CD95B78759D91A53A86BEF4FEC4B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -547,7 +546,6 @@
 		7444DC5311EDDDB0138015B2F6C545BF /* KWUserDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWUserDefinedMatcher.m; path = Classes/Matchers/KWUserDefinedMatcher.m; sourceTree = "<group>"; };
 		7473971077C83369FB56872D40061A3D /* KWHaveValueMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWHaveValueMatcher.h; path = Classes/Matchers/KWHaveValueMatcher.h; sourceTree = "<group>"; };
 		749753C4C2ED85BCDB15F70D94395268 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		785519CC4F6139CFD6E9FC45666291B4 /* KWValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWValue.m; path = Classes/Core/KWValue.m; sourceTree = "<group>"; };
 		7894ACC1426D0B35F3A7D8F6116586E9 /* Kiwi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kiwi-dummy.m"; sourceTree = "<group>"; };
 		789DA8D0D92C9EE160142E640F5DB679 /* NSInvocation+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+OCMAdditions.h"; path = "Classes/Core/NSInvocation+OCMAdditions.h"; sourceTree = "<group>"; };
@@ -598,6 +596,7 @@
 		A3040146702ED88D6AD69BE216B9E531 /* UIControl+Block.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Block.m"; path = "LPDAdditionsKit/Classes/UIControl+Block.m"; sourceTree = "<group>"; };
 		A3A00D3F10C6AB43AF18729111A951E5 /* KWObjCUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWObjCUtilities.m; path = Classes/Core/KWObjCUtilities.m; sourceTree = "<group>"; };
 		A3AE7F0AA9F8BD19B1224B20C73D689B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		A3E131B2F0AA3DE280DE20AC423B5CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A3F4DCF7FB98D929440DF36D6C2F61D6 /* LPDSystemAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LPDSystemAlertView.m; sourceTree = "<group>"; };
 		A52207E3A33DEE8F758512CEE39E08D5 /* KWBeBetweenMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBeBetweenMatcher.h; path = Classes/Matchers/KWBeBetweenMatcher.h; sourceTree = "<group>"; };
 		A5DC1DEA8308722A5D087989EDED69D0 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
@@ -616,6 +615,7 @@
 		AD9932082D717B3F9EA3F6AB5A0FE527 /* KWBeKindOfClassMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWBeKindOfClassMatcher.m; path = Classes/Matchers/KWBeKindOfClassMatcher.m; sourceTree = "<group>"; };
 		ADAD9F8F8F88C4B26A38F066EDE9A2EB /* NSMethodSignature+KiwiAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+KiwiAdditions.h"; path = "Classes/Core/NSMethodSignature+KiwiAdditions.h"; sourceTree = "<group>"; };
 		AE1CF55FF3FAB7E298B79507D7D43C06 /* KWMessagePattern.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWMessagePattern.m; path = Classes/Core/KWMessagePattern.m; sourceTree = "<group>"; };
+		AFA670FCCAE3D834A024D48B856DBFD4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B015BE3AFE164A315865E153ADD032DF /* NSNumber+LPDMoneyAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+LPDMoneyAddition.m"; path = "LPDAdditionsKit/Classes/NSNumber+LPDMoneyAddition.m"; sourceTree = "<group>"; };
 		B01B8E4A138C11F48AFBA0233EAE2F94 /* LPDControlsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LPDControlsKit.modulemap; sourceTree = "<group>"; };
 		B049B682608D526BBD3CD7E64CF2A6DA /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
@@ -705,11 +705,11 @@
 		EB4F6A9F20E92AEB3EF77007B7F2EF25 /* KWStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWStub.h; path = Classes/Stubbing/KWStub.h; sourceTree = "<group>"; };
 		EB5942CF2A81440A75CDD8EAB1E2CA6E /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
 		ED8F9739FC5C4738CFE592F09A6FB189 /* NSDate+LPDNSDateRFC1123.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+LPDNSDateRFC1123.m"; path = "LPDAdditionsKit/Classes/NSDate+LPDNSDateRFC1123.m"; sourceTree = "<group>"; };
+		EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		EDC0A0C9111DCB0D6F47888F156A293C /* KWRegisterMatchersNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRegisterMatchersNode.m; path = Classes/Nodes/KWRegisterMatchersNode.m; sourceTree = "<group>"; };
 		EE07925343C1A6588EBBA9FBFE46A088 /* KWRespondToSelectorMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWRespondToSelectorMatcher.m; path = Classes/Matchers/KWRespondToSelectorMatcher.m; sourceTree = "<group>"; };
 		EE88D22F9F01B4BCA62E4E87D4B16987 /* KWEqualMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWEqualMatcher.h; path = Classes/Matchers/KWEqualMatcher.h; sourceTree = "<group>"; };
 		EED0CC6ED7E35DF33F41B6B7F15D294D /* KWCaptureSpy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWCaptureSpy.h; path = Classes/Core/KWCaptureSpy.h; sourceTree = "<group>"; };
-		EEE9521CED9A99E34C0FBEBFFFFBC6C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EF7503F752871A34C7378B06628B92CD /* UIScrollView+LPDAccessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+LPDAccessor.h"; path = "LPDAdditionsKit/Classes/UIScrollView+LPDAccessor.h"; sourceTree = "<group>"; };
 		EF9890AC9FE1B3348AEC8FEDE7BBFEEB /* LPDControlsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LPDControlsKit.framework; path = LPDControlsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCB6C699F4475F3D5B71D61541EFB59 /* KWBlockRaiseMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWBlockRaiseMatcher.h; path = Classes/Matchers/KWBlockRaiseMatcher.h; sourceTree = "<group>"; };
@@ -745,8 +745,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD7BF297A0A78BEBE999068706ADDE08 /* Foundation.framework in Frameworks */,
-				D8891DF93165B1EE6A1A82496175876D /* XCTest.framework in Frameworks */,
+				FA1FEB8841D492F0181375F9155AE12F /* Foundation.framework in Frameworks */,
+				1010534B40894268A673B16193B0F8EC /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,7 +754,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B2937E09F2484FD552D6F59461B7AA /* Foundation.framework in Frameworks */,
+				04E4C83FEF3CA003DF763D37124B5914 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,7 +762,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E05EB4B58FB182CA2DC59F4E7255629 /* Foundation.framework in Frameworks */,
+				B503B292EE17422E9463455D1C05B89E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,8 +770,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BB8686674F125D2EEF290517F42628C /* Foundation.framework in Frameworks */,
-				28A3BCA13A813AA484CABAAD5FDA1A70 /* UIKit.framework in Frameworks */,
+				B1237CFB9E7EE7F303B4ECE7C63C7ADA /* Foundation.framework in Frameworks */,
+				F7F0AB7258DDE4362BBC52D658814214 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,7 +779,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9422E2328E7BEE45D443F3C9A4EEA1D9 /* Foundation.framework in Frameworks */,
+				6AAB5F568DAD2D94FEFC26A04BE12F21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -787,11 +787,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BD256CD5EEA6C8BA454B37E6B6CDF0 /* Foundation.framework in Frameworks */,
+				2F425E903AB6FDF67D424C7003CC64A8 /* Foundation.framework in Frameworks */,
 				77E5A4E901AF4817BE80D63C28AC9617 /* LPDAdditionsKit.framework in Frameworks */,
 				83240D6677A4D087A8FEC2E2D1B41E95 /* Masonry.framework in Frameworks */,
 				46F2D9889F32B8440C528D4711E9D465 /* SDVersion.framework in Frameworks */,
-				7A60C0FEC0E5DFE6B5CF97962C4696B3 /* UIKit.framework in Frameworks */,
+				628BBB3AFA6CCDD8D6B0B57C7FDD15DC /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,7 +799,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C52CDB56D491C453775F58595E0C181 /* Foundation.framework in Frameworks */,
+				E36057BEEDEBE6480256970C1241AE2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,7 +835,7 @@
 				F6CD8FED5AE252E16615AE9F4E7262F9 /* LPDAdditionsKit.framework */,
 				E5442B6497DAC59F9C29EBD41A780A87 /* Masonry.framework */,
 				F2835C5FF93D20ADE13173D46A258984 /* SDVersion.framework */,
-				2C1784376A55C429693FF2AF80019BFB /* iOS */,
+				171B10F51AFC3F0D09FE0751044CB8B3 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -852,6 +852,16 @@
 			path = SDVersion;
 			sourceTree = "<group>";
 		};
+		171B10F51AFC3F0D09FE0751044CB8B3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EDB18AFDDB751EC7CCFC87E478756F44 /* Foundation.framework */,
+				A3E131B2F0AA3DE280DE20AC423B5CF6 /* UIKit.framework */,
+				AFA670FCCAE3D834A024D48B856DBFD4 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		2A37DDF1A8FFB415B09750BDCA83939C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -864,16 +874,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
-			sourceTree = "<group>";
-		};
-		2C1784376A55C429693FF2AF80019BFB /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7774B4870154B70C95F0B06F28752C4F /* Foundation.framework */,
-				EEE9521CED9A99E34C0FBEBFFFFBC6C6 /* UIKit.framework */,
-				1E7CC1FE58F2554286FA0ABB086BDDAE /* XCTest.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		34AFA6C21D6005368EF299D1290D587C /* Classes */ = {
@@ -1752,7 +1752,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -2023,11 +2023,112 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		01787D2E00ED2B55729860EA42B091BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A7FC795D66E801A46275DFB9F4271B /* Pods-LPDControlsKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Pods-LPDControlsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LPDControlsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		052D89B6CEAFF469F6F2E42878A7BDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00263F40EA8673C6D5D8307181FB21BF /* Kiwi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kiwi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		265183792B82C555FA261762AC01EDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E280D5D3BE9E341CCFA141B15291FA /* LPDControlsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LPDControlsKit/LPDControlsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LPDControlsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LPDControlsKit/LPDControlsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LPDControlsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2035,10 +2136,353 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45EC228299984E6C720302CAD2F1837B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E280D5D3BE9E341CCFA141B15291FA /* LPDControlsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LPDControlsKit/LPDControlsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LPDControlsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LPDControlsKit/LPDControlsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LPDControlsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46D87CF00CCA734427BB9B9F852A463E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C23948480D4189FE5D31D4688C795B /* Pods-LPDControlsKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Pods-LPDControlsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LPDControlsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		519F0DAF0BCB20A165D44928533FD816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C24C826E9EE3FAB47AC3C843778B5F /* LPDAdditionsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LPDAdditionsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LPDAdditionsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C73C8B7809C63DD7FF5233D9A39BA23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62ACF22A26D13EAFF674ACE3264D2B9 /* SDVersion.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDVersion/SDVersion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDVersion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDVersion/SDVersion.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDVersion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E08FD5F3CE4C8B72986731D0B3D37F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C24C826E9EE3FAB47AC3C843778B5F /* LPDAdditionsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LPDAdditionsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LPDAdditionsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7ABA29312858B5A14F2AC5ECB59AF335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00263F40EA8673C6D5D8307181FB21BF /* Kiwi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kiwi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		951761A594F2E455F7F0464DACE9B43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62ACF22A26D13EAFF674ACE3264D2B9 /* SDVersion.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDVersion/SDVersion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDVersion/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDVersion/SDVersion.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDVersion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B992634B35C27D463AAF2426B33B518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6644ACD8B2BFF7CC594270FFAA22DB36 /* Pods-LPDControlsKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LPDControlsKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LPDControlsKit_Tests/Pods-LPDControlsKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LPDControlsKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0D3D2FA709078825863AE12A86654D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAB719A2527B04D2B9D22C92E6AF833 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -2067,111 +2511,11 @@
 			};
 			name = Debug;
 		};
-		10E432EA37B91C877332DD7376C13BAB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08C24C826E9EE3FAB47AC3C843778B5F /* LPDAdditionsKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LPDAdditionsKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LPDAdditionsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		126940B3855E33DC11BC99185BE81C72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2A7FC795D66E801A46275DFB9F4271B /* Pods-LPDControlsKit_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Pods-LPDControlsKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LPDControlsKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		33011E432562877EC59793D5CAA0E74B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71C23948480D4189FE5D31D4688C795B /* Pods-LPDControlsKit_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LPDControlsKit_Example/Pods-LPDControlsKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LPDControlsKit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		408CCC7C77257F6492998D3240E9FD9E /* Release */ = {
+		D6B1F090C756907985C52CAC1961B259 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 311F3BADA2A4BA90AE549EBCD48C2C4C /* Pods-LPDControlsKit_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2203,112 +2547,11 @@
 			};
 			name = Release;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4635C5FEC39D490799FCEFC97C5E56D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08C24C826E9EE3FAB47AC3C843778B5F /* LPDAdditionsKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LPDAdditionsKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LPDAdditionsKit/LPDAdditionsKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LPDAdditionsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54A60FD9BF084822B3745BD835481B04 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00263F40EA8673C6D5D8307181FB21BF /* Kiwi.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Kiwi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E799B56A6DDC5D85F9EE07B3DD3FD7F /* Release */ = {
+		DFA4D00FC33780B53B09C16FDB52019B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CCAB719A2527B04D2B9D22C92E6AF833 /* Masonry.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -2328,227 +2571,6 @@
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A3BEEFA6BF0DCA32B43A3F06D380BE89 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07E280D5D3BE9E341CCFA141B15291FA /* LPDControlsKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LPDControlsKit/LPDControlsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LPDControlsKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LPDControlsKit/LPDControlsKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = LPDControlsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BE5DFC01194E8012A5C16758FCCE1730 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07E280D5D3BE9E341CCFA141B15291FA /* LPDControlsKit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/LPDControlsKit/LPDControlsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LPDControlsKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LPDControlsKit/LPDControlsKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = LPDControlsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BFE52130D6B7E3F9EA33116E0E6B4E1E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6644ACD8B2BFF7CC594270FFAA22DB36 /* Pods-LPDControlsKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-LPDControlsKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LPDControlsKit_Tests/Pods-LPDControlsKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_LPDControlsKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C631124EEDEE9F49F65CAF0D290F255C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F62ACF22A26D13EAFF674ACE3264D2B9 /* SDVersion.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDVersion/SDVersion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDVersion/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDVersion/SDVersion.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SDVersion;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DABD11A711F35C78E7E20E30DB87E9B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCAB719A2527B04D2B9D22C92E6AF833 /* Masonry.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E6C030311F75F89F1A643B98F2F84033 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00263F40EA8673C6D5D8307181FB21BF /* Kiwi.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Kiwi/Kiwi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Kiwi/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Kiwi/Kiwi.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Kiwi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FC3D7A0D9D9DE16683B9AF95FB0D828B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F62ACF22A26D13EAFF674ACE3264D2B9 /* SDVersion.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SDVersion/SDVersion-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDVersion/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDVersion/SDVersion.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SDVersion;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2563,8 +2585,8 @@
 		016228250B22F28083CF2300B9F294F2 /* Build configuration list for PBXNativeTarget "Pods-LPDControlsKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFE52130D6B7E3F9EA33116E0E6B4E1E /* Debug */,
-				408CCC7C77257F6492998D3240E9FD9E /* Release */,
+				9B992634B35C27D463AAF2426B33B518 /* Debug */,
+				D6B1F090C756907985C52CAC1961B259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2572,8 +2594,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2581,8 +2603,8 @@
 		46B26D3E680984036CCC6F2C006BF9D2 /* Build configuration list for PBXNativeTarget "Kiwi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E6C030311F75F89F1A643B98F2F84033 /* Debug */,
-				54A60FD9BF084822B3745BD835481B04 /* Release */,
+				052D89B6CEAFF469F6F2E42878A7BDC5 /* Debug */,
+				7ABA29312858B5A14F2AC5ECB59AF335 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2590,8 +2612,8 @@
 		666D51980494726A6FF3497F8C666C25 /* Build configuration list for PBXNativeTarget "Pods-LPDControlsKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				126940B3855E33DC11BC99185BE81C72 /* Debug */,
-				33011E432562877EC59793D5CAA0E74B /* Release */,
+				01787D2E00ED2B55729860EA42B091BF /* Debug */,
+				46D87CF00CCA734427BB9B9F852A463E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2599,8 +2621,8 @@
 		7912EC4DCA6857D8FB48E10EFE0C6430 /* Build configuration list for PBXNativeTarget "LPDAdditionsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4635C5FEC39D490799FCEFC97C5E56D3 /* Debug */,
-				10E432EA37B91C877332DD7376C13BAB /* Release */,
+				5E08FD5F3CE4C8B72986731D0B3D37F3 /* Debug */,
+				519F0DAF0BCB20A165D44928533FD816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2608,8 +2630,8 @@
 		995013B7434E2544C9B43EC830EB9125 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DABD11A711F35C78E7E20E30DB87E9B0 /* Debug */,
-				5E799B56A6DDC5D85F9EE07B3DD3FD7F /* Release */,
+				C0D3D2FA709078825863AE12A86654D2 /* Debug */,
+				DFA4D00FC33780B53B09C16FDB52019B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2617,8 +2639,8 @@
 		B79D2031036606A5893A525D13AB2813 /* Build configuration list for PBXNativeTarget "SDVersion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C631124EEDEE9F49F65CAF0D290F255C /* Debug */,
-				FC3D7A0D9D9DE16683B9AF95FB0D828B /* Release */,
+				951761A594F2E455F7F0464DACE9B43A /* Debug */,
+				5C73C8B7809C63DD7FF5233D9A39BA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2626,8 +2648,8 @@
 		E51B86B629B9CE3288D17DE325CEAA9B /* Build configuration list for PBXNativeTarget "LPDControlsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3BEEFA6BF0DCA32B43A3F06D380BE89 /* Debug */,
-				BE5DFC01194E8012A5C16758FCCE1730 /* Release */,
+				265183792B82C555FA261762AC01EDC7 /* Debug */,
+				45EC228299984E6C720302CAD2F1837B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
