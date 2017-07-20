@@ -247,8 +247,8 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
         imageView.image = image;
         [_contentView addSubview:imageView];
         [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.width.equalTo(@202);
-            make.height.equalTo(@160);
+            make.width.equalTo(@(imageView.image.size.width));
+            make.height.equalTo(@(imageView.image.size.height));
             make.centerX.equalTo(self.contentView.mas_centerX);
             make.top.equalTo(@28);
         }];
