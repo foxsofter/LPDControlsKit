@@ -213,6 +213,7 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
             [alertView hide];
         }
         alertView = [[LPDAlertView alloc] init];
+        alertView.caption = [attributedCaption string];
         [alertView show:image
       attributedCaption:attributedCaption
       attributedMessage:attributedMessage
