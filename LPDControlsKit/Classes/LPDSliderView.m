@@ -74,20 +74,31 @@ static float handleViewLeft = 0.0f;
         {
             CGFloat pointX = point.x+handleViewLeft;
             pointX = MIN(self.frame.size.width - self.handleView.frame.size.width, MAX(0, pointX));
-            self.handleView.frame = CGRectMake(pointX, 0, self.handleView.frame.size.width, self.handleView.frame.size.height);
-            self.foregroundView.frame = CGRectMake(0, 0, self.handleView.frame.origin.x, self.frame.size.height);
+            self.value = (pointX + self.handleView.frame.size.width)/self.frame.size.width;
+            __weak __typeof(self)weakSelf = self;
+            [UIView animateWithDuration:kAnimationSpeed animations:^ {
+                weakSelf.handleView.frame = CGRectMake(pointX, kBorderWidth, self.handleView.frame.size.width, self.handleView.frame.size.height);
+                weakSelf.foregroundView.frame = CGRectMake(0, kBorderWidth, self.handleView.frame.origin.x+self.handleView.frame.size.width/2, self.frame.size.height);
+            } completion:^(BOOL finished) {
+                if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(sliderValueChanged:)]) {
+                    [weakSelf.delegate sliderValueChanged:weakSelf];
+                }
+            }];
             break;
         }
         case UIGestureRecognizerStateEnded:
         {
-            CGRect frame = CGRectMake(0, 0, self.handleView.frame.size.width, self.handleView.frame.size.height);
+            CGRect frame = CGRectMake(0, kBorderWidth, self.handleView.frame.size.width, self.handleView.frame.size.height);
             if (self.handleView.frame.origin.x + self.handleView.frame.size.width > 0.8 * self.frame.size.width) {
-                frame = CGRectMake(self.frame.size.width - self.handleView.frame.size.width, 0, self.handleView.frame.size.width, self.handleView.frame.size.height);
+                frame = CGRectMake(self.frame.size.width - self.handleView.frame.size.width, kBorderWidth, self.handleView.frame.size.width, self.handleView.frame.size.height);
+                [self setValue:1.0 withAnimation:NO completion:nil];
+            }else{
+                [self setValue:0.0 withAnimation:NO completion:nil];
             }
             __weak __typeof(self)weakSelf = self;
             [UIView animateWithDuration:kAnimationSpeed animations:^ {
                 weakSelf.handleView.frame = frame;
-                weakSelf.foregroundView.frame = CGRectMake(0, 0, self.handleView.frame.origin.x, self.frame.size.height);
+                weakSelf.foregroundView.frame = CGRectMake(0, 0, self.handleView.frame.origin.x + self.handleView.frame.size.width/2, self.frame.size.height);
             } completion:^(BOOL finished) {
                 if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(sliderValueChangeEnded:)]) {
                     [weakSelf.delegate sliderValueChangeEnded:weakSelf];
