@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Roman Simenok. All rights reserved.
 //
 
-#define kBorderWidth 2.0 // size of border under the slider
+#define kBorderWidth 1.0 // size of border under the slider
 #define kViewCornerRadius 5.0 // view corners radius
 #define kAnimationSpeed 0.1 // speed when slider change position on tap
 
