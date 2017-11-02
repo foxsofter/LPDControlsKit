@@ -12,7 +12,7 @@
 @property (nonatomic, strong) UIImageView *handleView;
 @property (nonatomic, assign) CGFloat handleWidth;
 @property (nonatomic, strong) UIImage *handleImage;
-@property (nonatomic, assign) float value;
+//@property (nonatomic, assign) float value;
 
 @end
 

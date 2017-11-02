@@ -26,10 +26,14 @@
 
 @property (nonatomic, strong) UILabel *label;
 @property (nonatomic, weak) id <LPDSliderViewDelegate> delegate;
+@property (nonatomic, assign) float value;
+
 
 -(void)setColorsForBackground:(UIColor *)bCol foreground:(UIColor *)fCol handle:(UIColor *)hCol border:(UIColor *)brdrCol;
 //-(void)removeRoundCorners:(BOOL)corners removeBorder:(BOOL)border;
 
 -(id)initWithFrame:(CGRect)frame withHandleWith:(CGFloat)handleWidth withHandleImage:(UIImage *)handleImage;
+
+-(void)setValue:(float)value withAnimation:(bool)isAnimate completion:(void (^)(BOOL finished))completion;
 
 @end
