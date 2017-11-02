@@ -39,7 +39,7 @@
 -(void)initSlider {
     self.foregroundView = [[UIView alloc] init];
     self.handleView = [[UIImageView alloc] init];
-    self.handleView.layer.cornerRadius = viewCornerRadius;
+    self.handleView.layer.cornerRadius = kViewCornerRadius;
     self.handleView.layer.masksToBounds = YES;
     
     self.label = [[UILabel alloc] initWithFrame:self.bounds];
@@ -50,9 +50,9 @@
     [self addSubview:self.foregroundView];
     [self addSubview:self.handleView];
     
-    self.layer.cornerRadius = viewCornerRadius;
+    self.layer.cornerRadius = kViewCornerRadius;
     self.layer.masksToBounds = YES;
-    [self.layer setBorderWidth:borderWidth];
+    [self.layer setBorderWidth:kBorderWidth];
     
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panMoveGesture:)];
     self.handleView.userInteractionEnabled = YES;
@@ -85,7 +85,7 @@ static float handleViewLeft = 0.0f;
                 frame = CGRectMake(self.frame.size.width - self.handleView.frame.size.width, 0, self.handleView.frame.size.width, self.handleView.frame.size.height);
             }
             __weak __typeof(self)weakSelf = self;
-            [UIView animateWithDuration:animationSpeed animations:^ {
+            [UIView animateWithDuration:kAnimationSpeed animations:^ {
                 weakSelf.handleView.frame = frame;
                 weakSelf.foregroundView.frame = CGRectMake(0, 0, self.handleView.frame.origin.x, self.frame.size.height);
             } completion:^(BOOL finished) {
@@ -121,7 +121,7 @@ static float handleViewLeft = 0.0f;
     if(isAnimate) {
         __weak __typeof(self)weakSelf = self;
         
-        [UIView animateWithDuration:animationSpeed animations:^ {
+        [UIView animateWithDuration:kAnimationSpeed animations:^ {
             [weakSelf changeStarForegroundViewWithPoint:point];
             
         } completion:^(BOOL finished) {
@@ -177,13 +177,13 @@ static float handleViewLeft = 0.0f;
     self.foregroundView.frame = CGRectMake(0, 0, p.x, self.frame.size.height);
     
     if (self.foregroundView.frame.size.width <= 0) {
-        self.handleView.frame = CGRectMake(0, borderWidth, self.handleWidth, self.foregroundView.frame.size.height-borderWidth);
+        self.handleView.frame = CGRectMake(0, kBorderWidth, self.handleWidth, self.foregroundView.frame.size.height-kBorderWidth);
         [self.delegate sliderValueChanged:self]; // or use sliderValueChangeEnded method
     }else if (self.foregroundView.frame.size.width >= self.frame.size.width) {
-        self.handleView.frame = CGRectMake(self.foregroundView.frame.size.width-self.handleWidth, borderWidth, self.handleWidth, self.foregroundView.frame.size.height-borderWidth*2);
+        self.handleView.frame = CGRectMake(self.foregroundView.frame.size.width-self.handleWidth, kBorderWidth, self.handleWidth, self.foregroundView.frame.size.height-kBorderWidth*2);
         [self.delegate sliderValueChanged:self]; // or use sliderValueChangeEnded method
     }else{
-        self.handleView.frame = CGRectMake(self.foregroundView.frame.size.width-self.handleWidth/2, borderWidth, self.handleWidth, self.foregroundView.frame.size.height-borderWidth*2);
+        self.handleView.frame = CGRectMake(self.foregroundView.frame.size.width-self.handleWidth/2, kBorderWidth, self.handleWidth, self.foregroundView.frame.size.height-kBorderWidth*2);
     }
     
 }
