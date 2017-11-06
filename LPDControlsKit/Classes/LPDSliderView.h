@@ -22,7 +22,7 @@
 
 @end
 
-@interface LPDSliderView : UIView
+@interface LPDSliderView : UIControl
 
 @property (nonatomic, strong) UILabel *label;
 @property (nonatomic, weak) id <LPDSliderViewDelegate> delegate;
