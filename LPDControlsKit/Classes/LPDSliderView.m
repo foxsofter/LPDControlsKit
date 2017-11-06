@@ -36,6 +36,12 @@
     return self;
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    _label.frame = CGRectMake(44, kBorderWidth, self.frame.size.width-44, self.frame.size.height);
+}
+
+
 -(void)initSlider {
     self.foregroundView = [[UIView alloc] init];
     self.handleView = [[UIImageView alloc] init];
@@ -91,15 +97,18 @@ static float handleViewLeft = 0.0f;
             CGRect frame = CGRectMake(0, kBorderWidth, self.handleView.frame.size.width, self.handleView.frame.size.height);
             if (self.handleView.frame.origin.x + self.handleView.frame.size.width > 0.8 * self.frame.size.width) {
                 frame = CGRectMake(self.frame.size.width - self.handleView.frame.size.width, kBorderWidth, self.handleView.frame.size.width, self.handleView.frame.size.height);
-                [self setValue:1.0 withAnimation:NO completion:nil];
+                self.value = 1.0;
+                //                [self setValue:1.0 withAnimation:NO completion:nil];
             }else{
-                [self setValue:0.0 withAnimation:NO completion:nil];
+                //                [self setValue:0.0 withAnimation:NO completion:nil];
+                self.value = 0.0;
             }
             __weak __typeof(self)weakSelf = self;
             [UIView animateWithDuration:kAnimationSpeed animations:^ {
                 weakSelf.handleView.frame = frame;
-                weakSelf.foregroundView.frame = CGRectMake(0, 0, self.handleView.frame.origin.x + self.handleView.frame.size.width/2, self.frame.size.height);
+                weakSelf.foregroundView.frame = CGRectMake(0, kBorderWidth, self.handleView.frame.origin.x + self.handleView.frame.size.width/2, self.frame.size.height);
             } completion:^(BOOL finished) {
+                NSLog(@"===================end===========");
                 if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(sliderValueChangeEnded:)]) {
                     [weakSelf.delegate sliderValueChangeEnded:weakSelf];
                 }
@@ -157,6 +166,7 @@ static float handleViewLeft = 0.0f;
 -(void)setHandleImage:(UIImage *)handleImage{
     _handleImage = handleImage;
     _handleView.image = handleImage;
+    _handleView.contentMode = UIViewContentModeCenter;
     [_handleView sizeToFit];
     [self setValue:0.0 withAnimation:NO completion:nil];
 }
@@ -185,7 +195,7 @@ static float handleViewLeft = 0.0f;
     }
     
     self.value = p.x / self.frame.size.width;
-    self.foregroundView.frame = CGRectMake(0, 0, p.x, self.frame.size.height);
+    self.foregroundView.frame = CGRectMake(0, kBorderWidth, p.x, self.frame.size.height);
     
     if (self.foregroundView.frame.size.width <= 0) {
         self.handleView.frame = CGRectMake(0, kBorderWidth, self.handleWidth, self.foregroundView.frame.size.height-kBorderWidth);
