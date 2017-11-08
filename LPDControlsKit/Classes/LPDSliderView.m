@@ -95,7 +95,7 @@ static float handleViewLeft = 0.0f;
         case UIGestureRecognizerStateEnded:
         {
             CGRect frame = CGRectMake(0, 0, self.handleView.frame.size.width, self.handleView.frame.size.height);
-            if (self.handleView.frame.origin.x + self.handleView.frame.size.width > 0.8 * self.frame.size.width) {
+            if (self.handleView.frame.origin.x + self.handleView.frame.size.width > 0.75 * self.frame.size.width) {
                 frame = CGRectMake(self.frame.size.width - self.handleView.frame.size.width, 0, self.handleView.frame.size.width, self.handleView.frame.size.height);
                 self.value = 1.0;
                 //                [self setValue:1.0 withAnimation:NO completion:nil];
