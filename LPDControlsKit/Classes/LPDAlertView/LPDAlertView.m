@@ -381,25 +381,25 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
             break;
         }
     }
-    self.contentView.transform = CGAffineTransformMakeScale(0.01, 0.01);
-    self.backgroundView.backgroundColor = [UIColor clearColor];
-    [UIView animateWithDuration:0.2
-                     animations:^{
+//    self.contentView.transform = CGAffineTransformMakeScale(0.01, 0.01);
+//    self.backgroundView.backgroundColor = [UIColor clearColor];
+//    [UIView animateWithDuration:0.2
+//                     animations:^{
                          self.backgroundView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.5];
                          self.contentView.transform = CGAffineTransformMakeScale(1, 1);
-                     }
-                     completion:nil];
+//                     }
+//                     completion:nil];
 }
 
 - (void)hide:(void (^)(void))completion {
-    [UIView animateWithDuration:0.2
-                     animations:^{
+//    [UIView animateWithDuration:0.2
+//                     animations:^{
                          self.contentView.transform = CGAffineTransformMakeScale(0.01, 0.01);
                          self.backgroundView.backgroundColor = [UIColor clearColor];
-                     }
-                     completion:^(BOOL finished) {
+//                     }
+//                     completion:^(BOOL finished) {
                          [self remove:completion];
-                     }];
+//                     }];
 }
 
 - (void)remove:(void (^)(void))completion {
@@ -416,14 +416,14 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
 }
 
 - (void)hide {
-    [UIView animateWithDuration:0.2
-                     animations:^{
+//    [UIView animateWithDuration:0.2
+//                     animations:^{
                          self.contentView.transform = CGAffineTransformMakeScale(0.01, 0.01);
                          self.backgroundView.backgroundColor = [UIColor clearColor];
-                     }
-                     completion:^(BOOL finished) {
+//                     }
+//                     completion:^(BOOL finished) {
                          [self.backgroundView removeFromSuperview];
-                     }];
+//                     }];
 }
 
 @end
