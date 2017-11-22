@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LPDControlsKit'
-  s.version          = '0.3.2'
+  s.version          = '0.3.3'
   s.summary          = 'A short description of LPDControlsKit.'
 
 # This description is used to generate tags and improve search results.
