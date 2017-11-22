@@ -91,7 +91,7 @@
                 action:action];
 }
 
-- (void)LPDAlertViewNormal都没有 {
+- (void)LPDAlertViewNormal {
     LPDAlertAction *action = [[LPDAlertAction alloc] init];
     action.title = @"Action";
     action.action = ^{

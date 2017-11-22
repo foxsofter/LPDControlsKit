@@ -98,6 +98,11 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
      action1:(LPDAlertAction *)action1
      action2:(LPDAlertAction *)action2;
 
+#pragma mark - show alert view with view.
+
+- (void)show:(UIView *)view
+     actions:(NSArray *)action;
+
 #pragma mark - hide or exit.
 
 + (void)hideAll;
