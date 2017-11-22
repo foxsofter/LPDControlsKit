@@ -373,6 +373,7 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
 }
 
 - (void)show:(UIView *)view
+attributedCaption:(NSMutableAttributedString *)attributedCaption
      actions:(NSArray *)actions {
     _backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreen.width, UIScreen.height)];
 
@@ -389,14 +390,37 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
         make.height.greaterThanOrEqualTo(@80);
     }];
 
+    UILabel *captionLabel = nil;
+    if (attributedCaption && attributedCaption.string.length > 0) {
+        captionLabel = [[UILabel alloc] init];
+        captionLabel.numberOfLines = 0;
+        if (NO == [attributedCaption hasAttributes]) {
+            captionLabel.text = attributedCaption.string;
+            captionLabel.textColor = [UIColor colorWithHexString:@"#030303"];
+            captionLabel.font = [UIFont systemFontOfSize:17];
+        } else {
+            [attributedCaption addBaseAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13],
+                                                   NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#797979"]}];
+            captionLabel.attributedText = attributedCaption;
+        }
+        captionLabel.textAlignment = NSTextAlignmentCenter;
 
+        [_contentView addSubview:captionLabel];
+        [captionLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(@20);
+            make.left.equalTo(@27);
+            make.right.equalTo(@(-27));
+        }];
+    }
+
+    CGFloat viewWidth = 0;
+    if (view.frame.size.width < (UIScreen.width * 0.72)) {
+        viewWidth = UIScreen.width * 0.72;
+    } else {
+        viewWidth = view.frame.size.width;
+    }
+    view.frame = CGRectMake(view.origin.x, view.origin.y, viewWidth, view.frame.size.height);
     [_contentView addSubview:view];
-    [view mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.width.equalTo(@(_contentView.size.width));
-        make.height.equalTo(@(_contentView.size.height));
-        make.centerX.equalTo(self.contentView.mas_centerX);
-        make.top.equalTo(@0);
-    }];
 
     UIButton *button = nil;
     CGFloat buttonWidth = UIScreen.width * 0.73 / actions.count;
@@ -447,7 +471,11 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
         }];
 
         [button mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(view.mas_bottom).with.offset(20).priority(MASLayoutPriorityFittingSizeLevel);
+            if (captionLabel) {
+                make.top.equalTo(view.mas_bottom).with.offset(20).priority(MASLayoutPriorityFittingSizeLevel);
+            } else {
+                make.top.equalTo(view.mas_bottom).priority(MASLayoutPriorityFittingSizeLevel);
+            }
         }];
     }
     [self show];

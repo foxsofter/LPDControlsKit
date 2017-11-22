@@ -101,7 +101,8 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
 #pragma mark - show alert view with view.
 
 - (void)show:(UIView *)view
-     actions:(NSArray *)action;
+attributedCaption:(NSMutableAttributedString *)attributedCaption
+     actions:(NSArray *)actions;
 
 #pragma mark - hide or exit.
 

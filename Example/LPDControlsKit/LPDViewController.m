@@ -30,7 +30,8 @@
                       @"LPDAlertViewSystem无正文",
                       @"LPDAlertViewSystem单行",
                       @"LPDAlertViewSystem多行",
-                      @"LPDAlertViewSystem多行带样式"];
+                      @"LPDAlertViewSystem多行带样式",
+                      @"LPDAlertViewView自定义View"];
 
     [self setTableView];
 }
@@ -91,7 +92,7 @@
                 action:action];
 }
 
-- (void)LPDAlertViewNormal {
+- (void)LPDAlertViewNormal都没有 {
     LPDAlertAction *action = [[LPDAlertAction alloc] init];
     action.title = @"Action";
     action.action = ^{
@@ -196,6 +197,18 @@
            attributedMessage:testString
            attributedAction1:actionOK
            attributedAction2:actionCancel];
+}
+
+- (void)LPDAlertViewView自定义View {
+    LPDAlertAction *actionCancel = [[LPDAlertAction alloc] init];
+    actionCancel.title = @"取消";
+    actionCancel.action = ^{
+        NSLog(@"Test Clicked: 取消");
+    };
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 200, 220)];
+    view.backgroundColor = [UIColor cyanColor];
+    LPDAlertView *alertView = [[LPDAlertView alloc] init];
+    [alertView show:view attributedCaption:nil actions:@[actionCancel]];
 }
 
 @end
