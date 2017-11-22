@@ -1,7 +1,7 @@
 PODS:
   - Kiwi (2.4.0)
   - LPDAdditionsKit (0.1.1)
-  - LPDControlsKit (0.2.1):
+  - LPDControlsKit (0.3.1):
     - LPDAdditionsKit
     - Masonry
     - SDVersion
@@ -14,15 +14,15 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   LPDControlsKit:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
   Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
   LPDAdditionsKit: e029eefb9ec795bd4205a7f81e7678f654e9728f
-  LPDControlsKit: c323cd6a035cc0aec5f6a4d9b3d0554d2b5c1b1c
+  LPDControlsKit: 3538a84bd4a97511856a38c506dfdbc877518a23
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   SDVersion: 43383b6ac05462c973c3fd92d9748c74e360aba5
 
 PODFILE CHECKSUM: 9ce9802c3b7b34f21695145954ac6cb68a0769eb
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

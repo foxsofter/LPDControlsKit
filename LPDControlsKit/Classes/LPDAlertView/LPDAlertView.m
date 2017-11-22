@@ -372,6 +372,115 @@ attributedMessage:(NSMutableAttributedString *)attributedMessage
     [self show];
 }
 
+- (void)show:(UIView *)view
+attributedCaption:(NSMutableAttributedString *)attributedCaption
+     actions:(NSArray *)actions {
+    _backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, UIScreen.width, UIScreen.height)];
+
+    _contentView = [[UIView alloc] init];
+    _contentView.backgroundColor = [UIColor whiteColor];
+    _contentView.transform = CGAffineTransformMakeScale(0.1, 0.1);
+    _contentView.layer.cornerRadius = 3;
+    [_backgroundView addSubview:_contentView];
+
+    [_contentView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(@(UIScreen.width * 0.14));
+        make.right.equalTo(@(-UIScreen.width * 0.14));
+        make.center.equalTo(self.backgroundView);
+        make.height.greaterThanOrEqualTo(@80);
+    }];
+
+    UILabel *captionLabel = nil;
+    if (attributedCaption && attributedCaption.string.length > 0) {
+        captionLabel = [[UILabel alloc] init];
+        captionLabel.numberOfLines = 0;
+        if (NO == [attributedCaption hasAttributes]) {
+            captionLabel.text = attributedCaption.string;
+            captionLabel.textColor = [UIColor colorWithHexString:@"#030303"];
+            captionLabel.font = [UIFont systemFontOfSize:17];
+        } else {
+            [attributedCaption addBaseAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:13],
+                                                   NSForegroundColorAttributeName:[UIColor colorWithHexString:@"#797979"]}];
+            captionLabel.attributedText = attributedCaption;
+        }
+        captionLabel.textAlignment = NSTextAlignmentCenter;
+
+        [_contentView addSubview:captionLabel];
+        [captionLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.equalTo(@20);
+            make.left.equalTo(@27);
+            make.right.equalTo(@(-27));
+        }];
+    }
+
+    CGFloat viewWidth = 0;
+    if (view.frame.size.width < (UIScreen.width * 0.72)) {
+        viewWidth = UIScreen.width * 0.72;
+    } else {
+        viewWidth = view.frame.size.width;
+    }
+    view.frame = CGRectMake(view.origin.x, view.origin.y, viewWidth, view.frame.size.height);
+    [_contentView addSubview:view];
+
+    UIButton *button = nil;
+    CGFloat buttonWidth = UIScreen.width * 0.73 / actions.count;
+    CGFloat left = 0;
+    for (NSInteger i = 0; i < actions.count; i++) {
+        LPDAlertAction *action = [actions objectAtIndex:i];
+        button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.frame = CGRectMake(0, 0, buttonWidth, 44);
+        [button setTitle:action.title forState:UIControlStateNormal];
+        button.titleLabel.font = [UIFont systemFontOfSize:16];
+        button.contentMode = UIViewContentModeCenter;
+        [_contentView addSubview:button];
+
+        [button mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(@(left));
+            make.bottom.equalTo(@0);
+            make.width.equalTo(@(buttonWidth));
+            make.height.equalTo(@44);
+        }];
+
+        left += buttonWidth;
+
+        if (action.actionType == LPDAlertActionTypeDefault) {
+            [button setTitleColor:[UIColor colorWithHexString:@"#008AF1"] forState:UIControlStateNormal];
+            button.titleLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:16];
+        } else if (action.actionType == LPDAlertActionTypeDestructive) {
+            [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+        } else {
+            [button setTitleColor:[UIColor colorWithHexString:@"#666666"] forState:UIControlStateNormal];
+        }
+
+        if (i == 0) {
+            [button setBorder:0.5
+                  borderColor:[[UIColor blackColor] colorWithAlphaComponent:0.25]
+               borderPosition:LPDUIViewBorderPositionTop];
+        } else {
+            [button setBorder:0.5
+                  borderColor:[[UIColor blackColor] colorWithAlphaComponent:0.25]
+               borderPosition:LPDUIViewBorderPositionTop | LPDUIViewBorderPositionLeft];
+        }
+
+        __weak typeof (self) weakSelf = self;
+        [button touchUpInside:^{
+            __strong typeof (self) strongSelf = weakSelf;
+            if (strongSelf) {
+                [self hide:action.action];
+            }
+        }];
+
+        [button mas_makeConstraints:^(MASConstraintMaker *make) {
+            if (captionLabel) {
+                make.top.equalTo(view.mas_bottom).with.offset(20).priority(MASLayoutPriorityFittingSizeLevel);
+            } else {
+                make.top.equalTo(view.mas_bottom).priority(MASLayoutPriorityFittingSizeLevel);
+            }
+        }];
+    }
+    [self show];
+}
+
 - (void)show {
     NSEnumerator *frontToBackWindows = [[[UIApplication sharedApplication] windows] reverseObjectEnumerator];
 
